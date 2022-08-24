@@ -1,0 +1,36 @@
+Download: 下载
+Go: 进入
+New: 新版
+Old: 旧版
+button:
+  about: 关于
+  back: 返回
+  docs: 文章
+  go: 确定
+  home: 首页
+  links: 链接
+  toggle_dark: 切换深色模式
+  toggle_langs: 切换语言
+  tools: 工具
+docs:
+  articles-of-association-by-laws:
+    description: 华南师范大学软件协会章程
+    title: 软件协会章程
+index:
+  links:
+    email:
+      description: all(at)socoding.cn
+    github:
+      description: 社交帐号
+    member:
+      description: 成员列表
+membership:
+  core-members: 核心成员
+  members: 会员
+not-found: 未找到页面
+toc: 目录
+tools:
+  nothing:
+    description: 并没有
+    title: 什么也没有
+web-name: 华南师范大学软件协会

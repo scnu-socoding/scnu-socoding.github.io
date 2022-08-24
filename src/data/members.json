@@ -1,0 +1,124 @@
+{
+    "data": [
+        {
+            "name": "包楠玉",
+            "code": "CFO/财务",
+            "avatar": "/avatar/baonanyu.png"
+        },
+        {
+            "name": "蔡逸彬",
+            "code": "XSO/战略",
+            "avatar": "/avatar/caiyibin.png"
+        },
+        {
+            "name": "陈嘉成",
+            "code": "GuoDong/香农负责人",
+            "avatar": "/avatar/chenjiacheng.png"
+        },
+        {
+            "name": "陈家骏",
+            "code": "A1m233/香农负责人",
+            "avatar": "/avatar/chenjiajun.png"
+        },
+        {
+            "name": "甘一伟",
+            "code": "dakta/香农主要负责人",
+            "avatar": "/avatar/ganyiwei.png"
+        },
+        {
+            "name": "何思嘉",
+            "code": "Coco/椰社主要负责人",
+            "avatar": "/avatar/hesijia.png"
+        },
+        {
+            "name": "胡铭华",
+            "code": "CTO/技术",
+            "avatar": "/avatar/huminghua.png"
+        },
+        {
+            "name": "赖柏宇",
+            "code": "XSO/战略",
+            "avatar": "/avatar/laiboyu.png"
+        },
+        {
+            "name": "李彩桦",
+            "code": "CDO/设计",
+            "avatar": "/avatar/licaihua.png"
+        },
+        {
+            "name": "李勉鑫",
+            "code": "comeon/香农负责人",
+            "avatar": "/avatar/limianxin.png"
+        },
+        {
+            "name": "林美君",
+            "code": "CHO/人资",
+            "avatar": "/avatar/linmeijun.png"
+        },
+        {
+            "name": "刘骏龙",
+            "code": "CHO/人资",
+            "avatar": "/avatar/liujunlong.png"
+        },
+        {
+            "name": "吕昊达",
+            "code": "XSO/战略",
+            "avatar": "/avatar/luhaoda.png"
+        },
+        {
+            "name": "马吴越",
+            "code": "CTO/技术",
+            "avatar": "/avatar/mawuyue.png"
+        },
+        {
+            "name": "邱越洋",
+            "code": "XEO/副会长",
+            "avatar": "/avatar/qiuyueyang.png"
+        },
+        {
+            "name": "唐思涵",
+            "code": "COO/运营",
+            "avatar": "/avatar/tangsihan.png"
+        },
+        {
+            "name": "覃梓鑫",
+            "code": "XEO/副会长",
+            "avatar": "/avatar/qinzixin.png"
+        },
+        {
+            "name": "王家晔",
+            "code": "CEO/会长",
+            "avatar": "avatar/shaofun.png"
+        },
+        {
+            "name": "吴清源",
+            "code": "dayuanx/香农主要负责人",
+            "avatar": "/avatar/wuqingyuan.png"
+        },
+        {
+            "name": "袁子锋",
+            "code": "Tension/香农负责人",
+            "avatar": "/avatar/yuanzifeng.png"
+        },
+        {
+            "name": "曾熙茵",
+            "code": "CIO/信息",
+            "avatar": "/avatar/zengxiyin.png"
+        },
+        {
+            "name": "张成",
+            "code": "COO/运营",
+            "avatar": "/avatar/zhangcheng.png"
+        },
+        {
+            "name": "张佳乐",
+            "code": "XEO/副会长",
+            "avatar": "/avatar/zhangjiale.png"
+        },
+        {
+            "name": "郑景仁",
+            "code": "CMO/市场",
+            "avatar": "/avatar/zhengjingren.png"
+        }
+    ]
+}

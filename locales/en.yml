@@ -1,0 +1,37 @@
+Download: Download
+Go: Go
+New: New
+Old: Old
+button:
+  about: About
+  back: Back
+  docs: Docs
+  go: GO
+  home: Home
+  links: Links
+  toggle_dark: Toggle dark mode
+  toggle_langs: Change languages
+  tools: Tool box
+docs:
+  articles-of-association-by-laws:
+    description: Articles of Association By-laws
+    title: Articles of Association By-laws
+  previous: Previous versions
+index:
+  links:
+    email:
+      description: all%socoding.cn
+    github:
+      description: Organization
+    member:
+      description: Member list
+membership:
+  core-members: Core members
+  members: Members
+not-found: Not found
+toc: Contents
+tools:
+  nothing:
+    description: Nothing
+    title: Nothing
+web-name: South China Normal University Software Association
