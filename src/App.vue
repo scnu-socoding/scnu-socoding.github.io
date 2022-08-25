@@ -12,7 +12,7 @@ useHead({
     { name: 'description', content: 'SCNU SoCoding —— 华南师范大学软件协会' },
     {
       name: 'theme-color',
-      content: computed(() => isDark.value ? '#6DBB58' : '#ffffff'),
+      content: computed(() => isDark.value ? '#121212' : '#ffffff'),
     },
   ],
 })
