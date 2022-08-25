@@ -24,6 +24,10 @@ index:
       description: 社交帐号
     member:
       description: 成员列表
+    org:
+      description: 下属组织
+    wechat:
+      description: 微信公众号
 membership:
   core-members: 核心成员
   members: 会员

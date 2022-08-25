@@ -25,6 +25,10 @@ index:
       description: Organization
     member:
       description: Member list
+    org:
+      description: Organization
+    wechat:
+      description: Wechat
 membership:
   core-members: Core members
   members: Members
