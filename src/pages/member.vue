@@ -14,12 +14,12 @@ const member = members.data.find(it => it.name === name)
   <div class="animate-fadein-shift-y--2-1000">
     <div v-if="member">
       <ToolTipsProvider :gap="1">
-        <ToolTip :key="1" :description="member.code">
+        <ToolTip :key="1" :description="member.name">
           <Avatar :avatar="member.avatar" :name="member.name" />
         </ToolTip>
       </ToolTipsProvider>
       <br>
-      <p>{{ member.name }}</p>
+      <p>{{ member.code }}</p>
     </div>
     <div v-else>
       没有此成员

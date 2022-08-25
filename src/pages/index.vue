@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import links from '~/data/links'
+
 const { t } = useI18n()
+
 </script>
 
 <template>
