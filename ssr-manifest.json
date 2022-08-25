@@ -169,12 +169,12 @@
     "/assets/banner-dark.035b5a90.svg",
     "/assets/favicon.84690190.svg"
   ],
-  "public/banner.svg": [
+  "public/img/icons/banner.svg": [
     "/assets/banner.9897aa0c.svg",
     "/assets/banner-dark.035b5a90.svg",
     "/assets/favicon.84690190.svg"
   ],
-  "public/banner-dark.svg": [
+  "public/img/icons/banner-dark.svg": [
     "/assets/banner.9897aa0c.svg",
     "/assets/banner-dark.035b5a90.svg",
     "/assets/favicon.84690190.svg"
@@ -224,7 +224,7 @@
     "/assets/banner-dark.035b5a90.svg",
     "/assets/favicon.84690190.svg"
   ],
-  "public/favicon.svg": [
+  "public/img/icons/favicon.svg": [
     "/assets/banner.9897aa0c.svg",
     "/assets/banner-dark.035b5a90.svg",
     "/assets/favicon.84690190.svg"
@@ -274,7 +274,7 @@
     "/assets/banner-dark.035b5a90.svg",
     "/assets/favicon.84690190.svg"
   ],
-  "assets/app.3aa92205.js-unocss-hash.css": [
+  "assets/app.2b3f3d52.js-unocss-hash.css": [
     "/assets/banner.9897aa0c.svg",
     "/assets/banner-dark.035b5a90.svg",
     "/assets/favicon.84690190.svg"
@@ -286,57 +286,57 @@
     "/assets/virtual_pwa-register.80a10119.js"
   ],
   "src/layouts/404.vue": [
-    "/assets/404.603e66a6.js"
+    "/assets/404.5f70ba4a.js"
   ],
   "src/layouts/home.vue": [
-    "/assets/home.2e9e00e5.js"
+    "/assets/home.6fe4a087.js"
   ],
   "src/pages/[...all].vue": [
-    "/assets/_...all_.9073fa9c.js"
+    "/assets/_...all_.c3bbd0eb.js"
   ],
   "src/pages/about.md": [
-    "/assets/about.9507d318.js"
+    "/assets/about.7c190442.js"
   ],
   "src/pages/bylaws.vue": [
-    "/assets/bylaws.1cc60d71.js"
+    "/assets/bylaws.1808659a.js"
   ],
   "src/pages/docs.vue": [
-    "/assets/docs.20f5f4b1.js"
+    "/assets/docs.d848508c.js"
   ],
   "src/components/PureCard.vue": [
-    "/assets/Card.d7dfa543.js"
+    "/assets/Card.b9336959.js"
   ],
   "src/components/Card.vue": [
-    "/assets/Card.d7dfa543.js"
+    "/assets/Card.b9336959.js"
   ],
   "src/components/AnimateComponent.vue": [
-    "/assets/AnimateComponent.87a43827.js"
+    "/assets/AnimateComponent.45956a63.js"
   ],
   "src/pages/links.vue": [
-    "/assets/links.6c7ab390.js"
+    "/assets/links.97b7a182.js"
   ],
   "src/pages/member.vue": [
-    "/assets/member.b86cd1c3.js"
+    "/assets/member.e901a53c.js"
   ],
   "src/components/Avatar.vue": [
-    "/assets/members.e29f6086.js"
+    "/assets/members.f893cd05.js"
   ],
   "src/data/members.json": [
-    "/assets/members.e29f6086.js"
+    "/assets/members.f893cd05.js"
   ],
   "src/components/accordion/Accordion.vue": [
-    "/assets/membership.1d038849.js"
+    "/assets/membership.91696982.js"
   ],
   "src/components/accordion/AccordionRow.vue": [
-    "/assets/membership.1d038849.js"
+    "/assets/membership.91696982.js"
   ],
   "src/data/core-members.json": [
-    "/assets/membership.1d038849.js"
+    "/assets/membership.91696982.js"
   ],
   "src/pages/membership.vue": [
-    "/assets/membership.1d038849.js"
+    "/assets/membership.91696982.js"
   ],
   "src/pages/en/about.md": [
-    "/assets/about.b87e190a.js"
+    "/assets/about.82361ded.js"
   ]
 }
