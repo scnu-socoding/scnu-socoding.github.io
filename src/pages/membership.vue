@@ -14,7 +14,7 @@ const { t } = useI18n()
       </p>
       <ToolTipsProvider :gap="1">
         <ToolTip v-for="(it, i) in coreMembers.data" :key="i" :description="it.name">
-          <Avatar :avatar="it.avatar" :name="it.name" :link="`/member/?name=${it.name}`" />
+          <Avatar :avatar="it.avatar" :name="it.name" :link="`/member?name=${it.name}`" />
         </ToolTip>
       </ToolTipsProvider>
     </AccordionRow>
@@ -24,7 +24,7 @@ const { t } = useI18n()
       </p>
       <ToolTipsProvider :gap="1">
         <ToolTip v-for="(it, i) in members.data" :key="i" :description="it.name">
-          <Avatar :avatar="it.avatar" :name="it.name" :link="`/member/?name=${it.name}`" />
+          <Avatar :avatar="it.avatar" :name="it.name" :link="`/member?name=${it.name}`" />
         </ToolTip>
       </ToolTipsProvider>
     </AccordionRow>
