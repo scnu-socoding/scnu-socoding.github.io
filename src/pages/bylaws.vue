@@ -5,12 +5,13 @@ const { t } = useI18n()
 
 <template>
   <div max-w-lg ma lg:mt-4rem p-2xl lg:p-0 class="animate-fadein-shift-y--2-1000" />
-  <object
+  <iframe
     class="animate-fadein-shift-y--2-1000"
-
-    data="static/bylaws.html" width="100%" frameborder="0"
-    onload="this.height=this.contentWindow.document.body.scrollHeight"
-    onresize="this.height=this.contentWindow.document.body.scrollHeight"
+    style="overflow:hidden; scrolling: no"
+    allowTransparency="true"
+    src="static/bylaws.html" width="100%" frameborder="0"
+    onload="this.height=this.contentWindow.document.body.scrollHeight*1.1"
+    onresize="this.height=this.contentWindow.document.body.scrollHeight*1.1"
     sandbox="allow-same-origin allow-top-navigation allow-forms allow-scripts allow-popups"
   />
 
