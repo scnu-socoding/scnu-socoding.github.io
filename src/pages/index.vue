@@ -10,7 +10,7 @@ const { t } = useI18n()
 
     class="animate-fadein-shift-y--2-1000"
   >
-    <img src="../../public/favicon.svg">
+    <img src="../../public/static/favicon.svg">
   </div>
   <div
     text-xl sm:text-2xl lg:text-3xl

@@ -12,8 +12,8 @@ const { t } = useI18n()
       <a href="/">
         <ToolTipsProvider>
           <ToolTip :description="t('web-name')">
-            <img v-if="!isDark" class="image" src="../../public/banner.svg" width="150">
-            <img v-else class="image" src="../../public/banner-dark.svg" width="150">
+            <img v-if="!isDark" class="image" src="../../public/static/banner.svg" width="150">
+            <img v-else class="image" src="../../public/static/banner-dark.svg" width="150">
           </ToolTip>
         </ToolTipsProvider>
       </a>
