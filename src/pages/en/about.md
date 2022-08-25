@@ -14,4 +14,4 @@ The purpose of Software Association is
 
 We look forward to getting to know you, learning cutting-edge technologies and growing together. Welcome you to join us.
 
-[华南师范大学软件协会章程](/bylaws)
+[Articles of association By-laws](/bylaws)
