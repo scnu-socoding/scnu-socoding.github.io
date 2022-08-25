@@ -10,8 +10,8 @@ const { t } = useI18n()
     style="overflow:hidden; scrolling: no"
     allowTransparency="true"
     src="static/bylaws.html" width="100%" frameborder="0"
-    onload="this.height=this.contentWindow.document.body.scrollHeight*1.1"
-    onresize="this.height=this.contentWindow.document.body.scrollHeight*1.1"
+    onload="this.height=this.contentWindow.document.body.scrollHeight"
+    onresize="this.height=this.contentWindow.document.body.scrollHeight"
     sandbox="allow-same-origin allow-top-navigation allow-forms allow-scripts allow-popups"
   />
 
