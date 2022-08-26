@@ -274,7 +274,7 @@
     "/assets/banner-dark.035b5a90.svg",
     "/assets/favicon.fd06711d.svg"
   ],
-  "assets/app.816aea13.js-unocss-hash.css": [
+  "assets/app.4b6c7811.js-unocss-hash.css": [
     "/assets/banner.9897aa0c.svg",
     "/assets/banner-dark.035b5a90.svg",
     "/assets/favicon.fd06711d.svg"
@@ -286,63 +286,63 @@
     "/assets/virtual_pwa-register.80a10119.js"
   ],
   "src/layouts/404.vue": [
-    "/assets/404.edd7c63f.js"
+    "/assets/404.f49ea55b.js"
   ],
   "src/layouts/home.vue": [
-    "/assets/home.0a4147c5.js"
+    "/assets/home.4e939171.js"
   ],
   "src/pages/404.vue": [
-    "/assets/404.852d5217.js"
+    "/assets/404.86696890.js"
   ],
   "src/pages/about.md": [
-    "/assets/about.00bbee70.js"
+    "/assets/about.27a0b8e1.js"
   ],
   "src/pages/bylaws.vue": [
-    "/assets/bylaws.26c321e2.js"
+    "/assets/bylaws.67d65b12.js"
   ],
   "src/pages/docs.vue": [
-    "/assets/docs.1b84ae82.js"
+    "/assets/docs.747d0d5e.js"
   ],
   "src/components/PureCard.vue": [
-    "/assets/Card.b8929c51.js"
+    "/assets/Card.f9281710.js"
   ],
   "src/components/Card.vue": [
-    "/assets/Card.b8929c51.js"
+    "/assets/Card.f9281710.js"
   ],
   "src/components/AnimateComponent.vue": [
-    "/assets/AnimateComponent.a5d26d8f.js"
+    "/assets/AnimateComponent.960a3a34.js"
   ],
   "src/pages/links.vue": [
-    "/assets/links.5308ea26.js"
+    "/assets/links.96f5165f.js"
   ],
   "src/pages/member.vue": [
-    "/assets/member.ba7b002e.js"
+    "/assets/member.93049f98.js"
   ],
   "src/components/Avatar.vue": [
-    "/assets/members.abd7eab3.js"
+    "/assets/members.ee60acc8.js"
   ],
   "src/data/members.json": [
-    "/assets/members.abd7eab3.js"
+    "/assets/members.ee60acc8.js"
   ],
   "src/components/accordion/Accordion.vue": [
-    "/assets/membership.a1db3f17.js"
+    "/assets/membership.bded667c.js"
   ],
   "src/components/accordion/AccordionRow.vue": [
-    "/assets/membership.a1db3f17.js"
+    "/assets/membership.bded667c.js"
   ],
   "src/data/core-members.json": [
-    "/assets/membership.a1db3f17.js"
+    "/assets/membership.bded667c.js"
   ],
   "src/pages/membership.vue": [
-    "/assets/membership.a1db3f17.js"
+    "/assets/membership.bded667c.js"
   ],
   "src/pages/organization.md": [
-    "/assets/organization.6c552a66.js"
+    "/assets/organization.a2c213f5.js"
   ],
   "src/pages/recruitment.vue": [
-    "/assets/recruitment.1a42c704.js"
+    "/assets/recruitment.35b7be59.js"
   ],
   "src/pages/en/about.md": [
-    "/assets/about.8290afbf.js"
+    "/assets/about.d5e50dcd.js"
   ]
 }
