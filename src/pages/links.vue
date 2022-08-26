@@ -12,10 +12,17 @@ const data: CardData[] = [
     ],
   },
   {
-    title: 'SoCoCloud',
+    title: 'SoCoding Cloud',
     description: 'SoCoding 在线存储服务',
     action: [
       { label: 'Go', icon: 'i-ri-links-fill', url: '//cloud.socoding.cn' },
+    ],
+  },
+  {
+    title: 'SoCoding Status',
+    description: 'SoCoding 公网服务状态',
+    action: [
+      { label: 'Go', icon: 'i-ri-links-fill', url: '//status.socoding.cn' },
     ],
   },
   {
