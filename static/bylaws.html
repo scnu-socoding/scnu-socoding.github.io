@@ -203,34 +203,6 @@ mark .md-meta { color: rgb(0, 0, 0); }
 
 
 
-/* ============================================
- * ============ TYPORA lATEX THEME ============
- * ============================================
- * This project is based on the work of yfzhao20 and du33169,
-   whose repositories are addressed on
-   <https://github.com/yfzhao20/Typora-markdown> and
-   <https://github.com/du33169/typora-theme-essay_cn>,
-   many thanks to them.
- * Typora LaTeX Theme (Markdown LaTeX Theme)
-   is a CSS theme mainly used as a component of Typora,
-   which is designed for Chinese university students
-   used in LaTeX-styled essays and reports.
- * Copyright (C) 2021 Keldos;
- * Repository Address: <https://github.com/Keldos-Li/typora-latex-theme>;
- * Licensed Under GPL v3.0, SEE <https://github.com/Keldos-Li/typora-latex-theme/blob/main/LICENSE>
- */
-/* As a special exception, you may create a larger work
-   that contains part or all of the Typora LaTeX Theme
-   and distribute that work under terms of your choice,
-   so long as that work isn't itself a CSS theme
-   or can be processed into CSS theme by using some
-   CSS pre-processors like SASS. Alternatively, if you
-   modify or redistribute this CSS theme itself,
-   you may (at your option) remove this special exception,
-   which will cause the CSS theme and the resulting output files
-   to be licensed under the GNU General Public License
-   without this special exception.
- */
 :root {
   /* == 字体设置 == */
   /* 基准字体 */
@@ -358,7 +330,7 @@ strong {
 
 /* 正文区基本属性 */
 #write {
-  font-family: var(--base-Latin-font), var(--base-Chinese-font), serif;
+  font-family: var(--base-Latin-font), var(--base-Chinese-font), sans-serif;
   font-size: var(--base-font-size);
   /* A4标准宽度 */
   max-width: 21cm;
@@ -387,12 +359,12 @@ strong {
 #write h6 {
   font-weight: normal;
   /* 标题字体 */
-  font-family: var(--heading-Latin-font), var(--heading-Chinese-font), serif;
+  font-family: var(--heading-Latin-font), var(--heading-Chinese-font), sans-serif;
   page-break-after: avoid !important;
 }
 
 #write h1 {
-  font-family: var(--heading-Latin-font), var(--title-Chinese-font), serif;
+  font-family: var(--heading-Latin-font), var(--title-Chinese-font), sans-serif;
   font-weight: normal;
   text-align: center;
   column-span: all;
@@ -401,31 +373,31 @@ strong {
 }
 
 #write h2 {
-  font-family: var(--heading-Latin-font), var(--h2-Chinese-font), serif;
+  font-family: var(--heading-Latin-font), var(--h2-Chinese-font), sans-serif;
   font-size: var(--h2-font-size);
   font-weight: 700;
 }
 
 #write h3 {
-  font-family: var(--heading-Latin-font), var(--h3-Chinese-font), serif;
+  font-family: var(--heading-Latin-font), var(--h3-Chinese-font), sans-serif;
   font-size: var(--h3-font-size);
   line-height: var(--h3-font-size);
 }
 
 #write h4 {
-  font-family: var(--heading-Latin-font), var(--h4-Chinese-font), serif;
+  font-family: var(--heading-Latin-font), var(--h4-Chinese-font), sans-serif;
   font-size: var(--h4-font-size);
   line-height: var(--h4-font-size);
 }
 
 #write h5 {
-  font-family: var(--heading-Latin-font), var(--h5-Chinese-font), serif;
+  font-family: var(--heading-Latin-font), var(--h5-Chinese-font), sans-serif;
   font-size: var(--h5-font-size);
   line-height: var(--h5-font-size);
 }
 
 #write h6 {
-  font-family: var(--heading-Latin-font), var(--h6-Chinese-font), serif;
+  font-family: var(--heading-Latin-font), var(--h6-Chinese-font), sans-serif;
   font-size: var(--h6-font-size);
   /* 没有写错，为了避免行距太小才这么写 */
   line-height: var(--h5-font-size);
@@ -436,7 +408,7 @@ strong {
   border-top: 1.2pt solid;
   /* 三线表第二条线宽度 */
   border-bottom: 1.2pt solid;
-  font-family: var(--table-font), var(--base-Latin-font), var(--base-Chinese-font), serif;
+  font-family: var(--table-font), var(--base-Latin-font), var(--base-Chinese-font), sans-serif;
   /* font-size: var(--base-font-size); */
   text-align: center;
   page-break-inside: avoid;
@@ -463,7 +435,7 @@ strong {
   /* 表格标题（首行）样式 */
   /* 三线表表头的线 */
   border-bottom: 0.5pt solid;
-  font-family: var(--table-title-font), var(--heading-Latin-font), var(--heading-Chinese-font), serif !important;
+  font-family: var(--table-title-font), var(--heading-Latin-font), var(--heading-Chinese-font), sans-serif !important;
   /* font-size: var(--base-font-size); */
   font-weight: var(--strong-weight);
 }
@@ -518,7 +490,7 @@ strong {
 /* basic 样式采用一般的引言，具有左边框、左缩进 */
 blockquote {
   font-style: normal;
-  font-family: var(--quote-font), var(--base-Latin-font), var(--base-Chinese-font), -apple-system, serif;
+  font-family: var(--quote-font), var(--base-Latin-font), var(--base-Chinese-font), -apple-system, sans-serif;
   font-size: var(--quote-font-size);
   /* 文字离左边框的距离 */
   padding-left: 16px;
@@ -708,7 +680,7 @@ h6.md-focus.md-heading:before {
 .md-toc-h5,
 .md-toc-h6 {
   font-size: var(--toc-font-size);
-  font-family: var(--toc-font), var(--base-Latin-font), var(--base-Chinese-font), serif;
+  font-family: var(--toc-font), var(--base-Latin-font), var(--base-Chinese-font), sans-serif;
 }
 
 .md-toc-h2 {
