@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import links from '~/data/links'
+import { isDark } from '~/composables'
 
 const { t } = useI18n()
 
@@ -7,10 +8,18 @@ const { t } = useI18n()
 
 <template>
   <div
+    v-if="!isDark"
     max-w-full
     ma lg:mt-4rem
 
     class="bg-img animate-fadein-shift-y--2-1000"
+  />
+  <div
+    v-else
+    max-w-full
+    ma lg:mt-4rem
+
+    class="bg-img-dark animate-fadein-shift-y--2-1000"
   />
 
   <div
@@ -38,6 +47,12 @@ const { t } = useI18n()
       background-size: contain;
       background-repeat: no-repeat;
   }
+  .bg-img-dark {
+    height: 60%;
+    background: url("/logo/socoding-dark.svg") center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -46,7 +61,13 @@ const { t } = useI18n()
     background: url("/favicon.svg") center;
     background-size: contain;
     background-repeat: no-repeat;
-}
+  }
+.bg-img-dark {
+    height: 60%;
+    background: url("/favicon.svg") center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 </style>
 
