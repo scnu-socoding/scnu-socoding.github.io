@@ -15,3 +15,4 @@ The purpose of Software Association is
 We look forward to getting to know you, learning cutting-edge technologies and growing together. Welcome you to join us.
 
 [Articles of association By-laws](/bylaws)
+[Recruiting Instructions of SoCoding](./recruitment)
