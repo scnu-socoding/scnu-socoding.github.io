@@ -2,7 +2,7 @@
 import links from '~/data/links'
 const { t } = useI18n()
 
-document.title = '协会章程 | SoCoding'
+document.title = '招新流程 | SoCoding'
 </script>
 
 <template>
@@ -11,7 +11,7 @@ document.title = '协会章程 | SoCoding'
     class="animate-fadein-shift-y--2-1000"
     style="overflow:hidden; scrolling: no"
     allowTransparency="true"
-    src="static/bylaws.html" width="100%" frameborder="0"
+    src="static/recruitment.html" width="100%" frameborder="0"
     onload="this.height=this.contentWindow.document.body.scrollHeight"
     onresize="this.height=this.contentWindow.document.body.scrollHeight"
     sandbox="allow-same-origin allow-top-navigation allow-forms allow-scripts allow-popups"

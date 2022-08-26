@@ -5,15 +5,22 @@ const { t } = useI18n()
 
 const data: CardData[] = [
   {
-    title: '华南师范大学软件协会暂行章程',
+    title: '软协 | SoCoding 招新流程',
+    description: '如果想加入我们，快来看看叭~',
+    action: [
+      { label: 'Go', icon: 'i-ri-links-fill', url: '/recruitment' },
+    ],
+  },
+  {
+    title: '软协 | SoCoding 暂行章程',
     description: '这是我们重整后的第一部暂行章程',
     action: [
       { label: 'Go', icon: 'i-ri-links-fill', url: '/bylaws' },
       { label: 'Download', icon: 'i-carbon-download', url: '../public/download/软件协会章程.pdf' }],
   },
   {
-    title: '我们建立了 SCNU SoCoding 的网站主页',
-    description: '我们建立了 SCNU SoCoding 的网站主页，欢迎大家访问',
+    title: '软协 | SoCoding 网站主页',
+    description: '我们刚刚建立了 SCNU SoCoding 的网站主页，欢迎大家访问~',
     action: [
       { label: 'Go', icon: 'i-ri-links-fill', url: '/' }],
   },
