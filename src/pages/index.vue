@@ -7,13 +7,12 @@ const { t } = useI18n()
 
 <template>
   <div
-    max-w-lg
+    max-w-full
     ma lg:mt-4rem
 
-    class="animate-fadein-shift-y--2-1000"
-  >
-    <img src="/favicon.svg">
-  </div>
+    class="bg-img animate-fadein-shift-y--2-1000"
+  />
+
   <div
     text-xl sm:text-2xl lg:text-3xl
     my-2xl
@@ -30,6 +29,26 @@ const { t } = useI18n()
     </ToolTipsProvider>
   </div>
 </template>
+
+<style>
+@media screen and (min-width: 1024px) {
+  .bg-img {
+      height: 60%;
+      background: url("/logo/socoding.svg") center;
+      background-size: contain;
+      background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+.bg-img {
+    height: 60%;
+    background: url("/favicon.svg") center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+}
+</style>
 
 <route lang="yaml">
 meta:
