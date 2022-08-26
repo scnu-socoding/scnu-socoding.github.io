@@ -15,3 +15,5 @@ title: About | SCNU SoCoding
 我们期待与你相识，一同学习前沿技术并成长。欢迎你的加入。
 
 [华南师范大学软件协会章程](/bylaws)
+
+[SoCoding 招新说明](./recruitment)
