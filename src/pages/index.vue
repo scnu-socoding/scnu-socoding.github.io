@@ -10,18 +10,9 @@ document.title = 'SCNU SoCoding'
 
 <template>
   <div
-    v-if="!isDark"
     max-w-full
     ma lg:mt-4rem
-
-    class="bg-img animate-fadein-shift-y--2-1000"
-  />
-  <div
-    v-else
-    max-w-full
-    ma lg:mt-4rem
-
-    class="bg-img-dark animate-fadein-shift-y--2-1000"
+    :class="(isDark?'dark-filter ':'') + 'bg-img animate-fadein-shift-y--2-1000'"
   />
 
   <div
@@ -41,7 +32,12 @@ document.title = 'SCNU SoCoding'
   </div>
 </template>
 
-<style>
+<style scoped>
+
+.dark-filter  {
+  filter: invert(0.93) hue-rotate(180deg) !important;
+}
+
 @media screen and (min-width: 1024px) {
   .bg-img {
       height: 60%;
@@ -49,22 +45,10 @@ document.title = 'SCNU SoCoding'
       background-size: contain;
       background-repeat: no-repeat;
   }
-  .bg-img-dark {
-    height: 60%;
-    background: url("/logo/socoding-dark.svg") center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
 }
 
 @media screen and (max-width: 1024px) {
 .bg-img {
-    height: 60%;
-    background: url("/favicon.svg") center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-.bg-img-dark {
     height: 60%;
     background: url("/favicon.svg") center;
     background-size: contain;

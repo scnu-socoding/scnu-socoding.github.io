@@ -12,8 +12,7 @@ const { t } = useI18n()
       <a href="/">
         <ToolTipsProvider>
           <ToolTip :description="t('web-name')">
-            <img v-if="!isDark" class="image" src="../../public/img/icons/banner.svg" width="150">
-            <img v-else class="image" src="../../public/img/icons/banner-dark.svg" width="150">
+            <img :class="isDark?'dark-filter':''" src="../../public/img/icons/banner.svg" width="150">
           </ToolTip>
         </ToolTipsProvider>
       </a>
@@ -23,7 +22,9 @@ const { t } = useI18n()
 </template>
 
 <style scoped>
-.image {
-  margin: auto;
+
+.dark-filter  {
+  filter: invert(0.93) hue-rotate(180deg) !important;
 }
+
 </style>
