@@ -4,6 +4,8 @@ import { isDark } from '~/composables'
 
 const { t } = useI18n()
 
+document.title = 'SCNU SoCoding'
+
 </script>
 
 <template>

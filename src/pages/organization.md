@@ -1,5 +1,5 @@
 ---
-title: Organization
+title: 下属组织 | SoCoding
 ---
 
 # 香农先修班

@@ -1,5 +1,5 @@
 ---
-title: About | SCNU SoCoding
+title: 关于我们 | SCNU SoCoding
 ---
 
 中文 | [English](/en/about)

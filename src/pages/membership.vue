@@ -4,6 +4,8 @@ import * as members from '~/data/members.json'
 
 const { t } = useI18n()
 
+document.title = '成员们 | SoCoding'
+
 </script>
 
 <template>

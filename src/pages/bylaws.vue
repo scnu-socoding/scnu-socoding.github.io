@@ -3,17 +3,24 @@ import links from '~/data/links'
 const { t } = useI18n()
 
 document.title = '协会章程 | SoCoding'
+
+window.onresize = window.onload = () => {
+  const iframe = document.getElementsByTagName('iframe')[0]
+  if (iframe && iframe.contentWindow)
+    iframe.style.height = `${iframe.contentWindow.document.body.scrollHeight.toString()}px`
+}
 </script>
 
 <template>
   <div max-w-lg ma lg:mt-4rem p-2xl lg:p-0 class="animate-fadein-shift-y--2-1000" />
   <iframe
     class="animate-fadein-shift-y--2-1000"
-    style="overflow:hidden; scrolling: no"
-    allowTransparency="true"
-    src="static/bylaws.html" width="100%" frameborder="0"
+    style="overflow:hidden;"
+    scrolling="no"
     onload="this.height=this.contentWindow.document.body.scrollHeight"
     onresize="this.height=this.contentWindow.document.body.scrollHeight"
+    allowTransparency="true"
+    src="static/bylaws.html" width="100%" frameborder="0"
     sandbox="allow-same-origin allow-top-navigation allow-forms allow-scripts allow-popups"
   />
 

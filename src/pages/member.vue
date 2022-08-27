@@ -7,6 +7,7 @@ const { t } = useI18n()
 const name = decodeURIComponent(location.search.split('=')[1])
 const member = members.data.find(it => it.name === name)
 
+document.title = `${name} | SoCoding`
 </script>
 
 <template>

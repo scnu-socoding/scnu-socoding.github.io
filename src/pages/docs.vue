@@ -3,6 +3,8 @@ import type { CardData } from '~/data/CardData'
 
 const { t } = useI18n()
 
+document.title = '文章 | SoCoding'
+
 const data: CardData[] = [
   {
     title: '软协 | SoCoding 招新流程',
