@@ -21,6 +21,13 @@ const data: CardData[] = [
     ],
   },
   {
+    title: 'SoCoding Puzzle',
+    description: 'SoCoding 在线解密平台',
+    action: [
+      { label: 'Go', icon: 'i-ri-links-fill', url: '//puzzle.socoding.cn' },
+    ],
+  },
+  {
     title: 'SoCoding Status',
     description: 'SoCoding 公网服务状态',
     action: [

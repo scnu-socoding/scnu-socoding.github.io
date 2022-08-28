@@ -14,6 +14,13 @@ const data: CardData[] = [
     ],
   },
   {
+    title: '软协 | SoCoding 换届公示',
+    description: '这是我们委员会的职务交付表~',
+    action: [
+      { label: 'Go', icon: 'i-ri-links-fill', url: '/office' },
+    ],
+  },
+  {
     title: '软协 | SoCoding 暂行章程',
     description: '这是我们重整后的第一部暂行章程',
     action: [
