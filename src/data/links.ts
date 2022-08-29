@@ -30,11 +30,13 @@ const links = [{
   icon: 'i-ri:wechat-fill',
   url: 'https://mp.weixin.qq.com/s/56MGctBwEqUvbBE_KkJ2QQ',
 },
+/*
 {
   name: 'Discord',
   description: 'index.links.discord.description',
   icon: 'i-ri-discord-fill',
   url: 'https://discord.gg/FC3E84ssSF',
 },
+*/
 ]
 export default links
