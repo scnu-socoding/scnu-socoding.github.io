@@ -29,6 +29,8 @@ index:
       description: Organization
     wechat:
       description: Wechat
+    discord:
+      description: Discord
 membership:
   core-members: Core members
   members: Members
