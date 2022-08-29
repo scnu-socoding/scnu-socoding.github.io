@@ -16,7 +16,7 @@ document.title = '成员们 | SoCoding'
       </p>
       <ToolTipsProvider :gap="1">
         <ToolTip v-for="(it, i) in coreMembers.data" :key="i" :description="it.name">
-          <Avatar :avatar="`/avatar/${it.englishName.toLowerCase()}.png`" :name="it.name" :link="`/member/${it.englishName}`" />
+          <Avatar :avatar="`/avatar/${it.englishName.toLowerCase()}.png`" :name="it.name" :link="`/member?${it.englishName}`" />
         </ToolTip>
       </ToolTipsProvider>
     </AccordionRow>
@@ -26,7 +26,7 @@ document.title = '成员们 | SoCoding'
       </p>
       <ToolTipsProvider :gap="1">
         <ToolTip v-for="(it, i) in members.data" :key="i" :description="it.name">
-          <Avatar :avatar="`/avatar/${it.englishName.toLowerCase()}.png`" :name="it.name" :link="`/member/${it.englishName}`" />
+          <Avatar :avatar="`/avatar/${it.englishName.toLowerCase()}.png`" :name="it.name" :link="`/member?${it.englishName}`" />
         </ToolTip>
       </ToolTipsProvider>
     </AccordionRow>
