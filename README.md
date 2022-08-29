@@ -1,7 +1,7 @@
 <p align='center'>
-  <img src='https://user-images.githubusercontent.com/11247099/154486817-f86b8f20-5463-4122-b6e9-930622e757f2.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
+  <img src='./favicon.svg' alt='SoCoding - 华南师范大学软件协会' width='300'/>
 </p>
 
 ## SCNU SoCoding 主页
 
-使用 [vitesse](https://github.com/antfu/vitesse) 脚手架创建
+基于 [manim-kindergarten.github.io](https://github.com/manim-kindergarten/manim-kindergarten.github.io)，使用 [vitesse](https://github.com/antfu/vitesse) 脚手架创建
