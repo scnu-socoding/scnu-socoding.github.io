@@ -2,123 +2,123 @@
     "data": [
         {
             "name": "包楠玉",
-            "code": "CFO/财务",
-            "avatar": "/avatar/baonanyu.png"
+            "englishName": "BaoNanYu",
+            "code": "CFO/财务"
         },
         {
             "name": "蔡逸彬",
-            "code": "XSO/战略",
-            "avatar": "/avatar/caiyibin.png"
+            "englishName": "CaiYiBin",
+            "code": "XSO/战略"
         },
         {
             "name": "陈嘉成",
-            "code": "GuoDong/香农负责人",
-            "avatar": "/avatar/chenjiacheng.png"
+            "englishName": "ChenJiaCheng",
+            "code": "GuoDong/香农负责人"
         },
         {
             "name": "陈家骏",
-            "code": "A1m233/香农负责人",
-            "avatar": "/avatar/chenjiajun.png"
+            "englishName": "ChenJiaJun",
+            "code": "A1m233/香农负责人"
         },
         {
             "name": "甘一伟",
-            "code": "dakta/香农主要负责人",
-            "avatar": "/avatar/ganyiwei.png"
+            "englishName": "GanYiWei",
+            "code": "dakta/香农主要负责人"
         },
         {
             "name": "何思嘉",
-            "code": "Coco/椰社主要负责人",
-            "avatar": "/avatar/hesijia.png"
+            "englishName": "HeSiJia",
+            "code": "Coco/椰社主要负责人"
         },
         {
             "name": "胡铭华",
-            "code": "CTO/技术",
-            "avatar": "/avatar/huminghua.png"
+            "englishName": "HuMingHua",
+            "code": "CTO/技术"
         },
         {
             "name": "赖柏宇",
-            "code": "XSO/战略",
-            "avatar": "/avatar/laiboyu.png"
+            "englishName": "LaiBoYu",
+            "code": "XSO/战略"
         },
         {
             "name": "李彩桦",
-            "code": "CDO/设计",
-            "avatar": "/avatar/licaihua.png"
+            "englishName": "LiCaiHua",
+            "code": "CDO/设计"
         },
         {
             "name": "李勉鑫",
-            "code": "comeon/香农负责人",
-            "avatar": "/avatar/limianxin.png"
+            "englishName": "LiMianXin",
+            "code": "comeon/香农负责人"
         },
         {
             "name": "林美君",
-            "code": "CHO/人资",
-            "avatar": "/avatar/linmeijun.png"
+            "englishName": "LinMeiJun",
+            "code": "CHO/人资"
         },
         {
             "name": "刘骏龙",
-            "code": "CHO/人资",
-            "avatar": "/avatar/liujunlong.png"
+            "englishName": "LiuJunLong",
+            "code": "CHO/人资"
         },
         {
             "name": "吕昊达",
-            "code": "XSO/战略",
-            "avatar": "/avatar/luhaoda.png"
+            "englishName": "LvHaoda",
+            "code": "XSO/战略"
         },
         {
             "name": "马吴越",
-            "code": "CTO/技术",
-            "avatar": "/avatar/mawuyue.png"
+            "englishName": "MaWuYue",
+            "code": "CTO/技术"
         },
         {
             "name": "邱越洋",
-            "code": "XEO/副会长",
-            "avatar": "/avatar/qiuyueyang.png"
+            "englishName": "QiuYueYang",
+            "code": "XEO/副会长"
         },
         {
             "name": "唐思涵",
-            "code": "COO/运营",
-            "avatar": "/avatar/tangsihan.png"
+            "englishName": "TangSiHan",
+            "code": "COO/运营"
         },
         {
             "name": "覃梓鑫",
-            "code": "XEO/副会长",
-            "avatar": "/avatar/qinzixin.png"
+            "englishName": "QinZiXin",
+            "code": "XEO/副会长"
         },
         {
             "name": "王家晔",
-            "code": "CEO/会长",
-            "avatar": "avatar/shaofun.png"
+            "englishName": "WangJiaYe",
+            "code": "CEO/会长"
         },
         {
             "name": "吴清源",
-            "code": "dayuanx/香农主要负责人",
-            "avatar": "/avatar/wuqingyuan.png"
+            "englishName": "WuQingYuan",
+            "code": "dayuanx/香农主要负责人"
         },
         {
             "name": "袁子锋",
-            "code": "Tension/香农负责人",
-            "avatar": "/avatar/yuanzifeng.png"
+            "englishName": "YuanZiFeng",
+            "code": "Tension/香农负责人"
         },
         {
             "name": "曾熙茵",
-            "code": "CIO/信息",
-            "avatar": "/avatar/zengxiyin.png"
+            "englishName": "ZengXiYin",
+            "code": "CIO/信息"
         },
         {
             "name": "张成",
-            "code": "COO/运营",
-            "avatar": "/avatar/zhangcheng.png"
+            "englishName": "ZhangCheng",
+            "code": "COO/运营"
         },
         {
             "name": "张佳乐",
-            "code": "XEO/副会长",
-            "avatar": "/avatar/zhangjiale.png"
+            "englishName": "ZhangJiaLe",
+            "code": "XEO/副会长"
         },
         {
             "name": "郑景仁",
-            "code": "CMO/市场",
-            "avatar": "/avatar/zhengjingren.png"
+            "englishName": "ZhengJingRen",
+            "code": "CMO/市场"
         }
     ]
 }

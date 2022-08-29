@@ -3,6 +3,7 @@
 // you can use this to manipulate the document head in any components,
 // they will be rendered correctly in the html results with vite-ssg
 import { isDark } from '~/composables'
+
 const { locale } = useI18n()
 locale.value = 'zh-CN'
 
