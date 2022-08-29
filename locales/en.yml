@@ -20,7 +20,7 @@ docs:
 index:
   links:
     email:
-      description: all%socoding.cn
+      description: "board(at)socoding.cn"
     github:
       description: Organization
     member:
