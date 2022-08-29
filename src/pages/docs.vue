@@ -7,13 +7,6 @@ document.title = '文章 | SoCoding'
 
 const data: CardData[] = [
   {
-    title: '软协 | SoCoding Discord',
-    description: '如果你知道什么是 Discord ，欢迎加入~',
-    action: [
-      { label: 'Go', icon: 'i-ri:discuss-line', url: 'https://discord.gg/FC3E84ssSF' },
-    ],
-  },
-  {
     title: '软协 | SoCoding 招新流程',
     description: '如果想加入我们，快来看看叭~',
     action: [
@@ -33,6 +26,13 @@ const data: CardData[] = [
     action: [
       { label: 'Go', icon: 'i-ri-links-fill', url: '/bylaws' },
       { label: 'Download', icon: 'i-carbon-download', url: '../public/download/软件协会章程.pdf' }],
+  },
+  {
+    title: '软协 | SoCoding Discord',
+    description: '如果你知道什么是 Discord ，欢迎加入~',
+    action: [
+      { label: 'Go', icon: 'i-ri:discuss-line', url: 'https://discord.gg/FC3E84ssSF' },
+    ],
   },
   {
     title: '软协 | SoCoding 网站主页',
