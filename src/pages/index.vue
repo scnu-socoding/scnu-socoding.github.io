@@ -26,7 +26,9 @@ document.title = 'SCNU SoCoding'
         v-for="(it, i) in links" :key="i"
         :description="t(it.description)"
       >
-        <a :href="it.url" icon-btn :class="it.icon" />
+        <animate-component duration-300 :delay="i">
+          <a :href="it.url" icon-btn :class="it.icon" />
+        </animate-component>
       </ToolTip>
     </ToolTipsProvider>
   </div>
