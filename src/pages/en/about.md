@@ -19,4 +19,4 @@ We look forward to getting to know you, learning cutting-edge technologies and g
 
 [Articles of association By-laws](/bylaws)
 
-[Recruiting Instructions of SoCoding](./recruitment)
+[Recruiting Instructions of SoCoding](/recruitment)
