@@ -32,9 +32,8 @@ createScript('//cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js', () => {
 
 <template>
   <div
-    style="width:60%"
     ma lg:mt-4rem
-    class="bg-img animate-fadein-shift-y--2-1000"
+    class="my-video bg-img animate-fadein-shift-y--2-1000"
   >
     <div id="dplayer" />
   </div>
@@ -46,6 +45,19 @@ createScript('//cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js', () => {
 </template>
 
 <style scoped>
+
+  @media screen and (min-width: 1024px) {
+    .my-video   {
+      width: 60%;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .my-video   {
+      width: 90%;
+    }
+  }
+
   .my-link{
     line-height: 1.75;
     box-sizing: border-box;
