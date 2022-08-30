@@ -1,0 +1,1 @@
+import{d as t,i as o}from"./app.d7e0306c.js";const e=t({__name:"404",setup(n){return document.title="\u9875\u9762\u627E\u4E0D\u5230\u5566 | SoCoding",()=>{}}});typeof o=="function"&&o(e);export{e as default};
