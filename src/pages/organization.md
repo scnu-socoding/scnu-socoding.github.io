@@ -23,4 +23,4 @@ title: 下属组织 | SoCoding
 无论你是想做游戏的美术、脑洞大开的策划，还是头发还没掉光的程序，椰社都欢迎你的加入。
 
 ### 如何加入我们
-[SoCoding 招新说明](./recruitment)
+[SoCoding 招新说明](/recruitment)
