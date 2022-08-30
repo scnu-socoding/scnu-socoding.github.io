@@ -28,6 +28,10 @@ createScript('//cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js', () => {
   })
 })
 
+function openBilibili() {
+  window.open('//www.bilibili.com/video/BV1cG411578F')
+}
+
 </script>
 
 <template>
@@ -38,10 +42,10 @@ createScript('//cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js', () => {
     <div id="dplayer" />
   </div>
   <br>
-  <a
-    class="my-link" target="_blank"
-    href="https://www.bilibili.com/video/BV1cG411578F"
-  >关注烧风喵，关注烧风谢谢喵~</a>
+
+  <button btn text-sm m="3 t8" @click="openBilibili()">
+    关注烧风喵，关注烧风谢谢喵~
+  </button>
 </template>
 
 <style scoped>
@@ -56,27 +60,6 @@ createScript('//cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js', () => {
     .my-video   {
       width: 90%;
     }
-  }
-
-  .my-link{
-    line-height: 1.75;
-    box-sizing: border-box;
-    border-width: 0;
-    border-style: solid;
-    border-color: currentColor;
-    color: var(--un-prose-links);
-    font-weight: 500;
-  }
-
-  .my-link:hover{
-    line-height: 1.75;
-    box-sizing: border-box;
-    border-width: 0;
-    border-style: solid;
-    border-color: currentColor;
-    color: #6DBB58;
-    text-decoration: underline;
-    font-weight: 700;
   }
 </style>
 
