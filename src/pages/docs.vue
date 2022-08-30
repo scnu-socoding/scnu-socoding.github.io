@@ -7,6 +7,13 @@ document.title = '文章 | SoCoding'
 
 const data: CardData[] = [
   {
+    title: '软协 | SoCoding 招新视频',
+    description: '可莉这么可爱，谁不想多看几遍呢？',
+    action: [
+      { label: 'Go', icon: 'i-ri-links-fill', url: '/pv' },
+    ],
+  },
+  {
     title: '软协 | SoCoding 招新流程',
     description: '如果想加入我们，快来看看叭~',
     action: [
@@ -33,12 +40,6 @@ const data: CardData[] = [
     action: [
       { label: 'Go', icon: 'i-ri:discuss-line', url: 'https://discord.gg/FC3E84ssSF' },
     ],
-  },
-  {
-    title: '软协 | SoCoding 网站主页',
-    description: '我们刚刚建立了 SCNU SoCoding 的网站主页，欢迎大家访问~',
-    action: [
-      { label: 'Go', icon: 'i-ri-links-fill', url: '/' }],
   },
 ]
 </script>
