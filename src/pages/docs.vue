@@ -10,7 +10,7 @@ const data: CardData[] = [
     title: '软协 | SoCoding 招新视频',
     description: '可莉这么可爱，谁不想多看几遍呢？',
     action: [
-      { label: 'Go', icon: 'i-ri-links-fill', url: '/pv' },
+      { label: 'Video-play', icon: 'i-ri-play-fill', url: '/pv' },
     ],
   },
   {
