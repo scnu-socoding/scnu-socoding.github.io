@@ -1,8 +1,8 @@
 Download: Download
 Go: Go
-Video-play: play
 New: New
 Old: Old
+Video-play: play
 button:
   about: About
   back: Back
@@ -10,6 +10,7 @@ button:
   go: GO
   home: Home
   links: Links
+  refresh: Refersh
   toggle_dark: Toggle dark mode
   toggle_langs: Change languages
   tools: Tool box
@@ -20,8 +21,10 @@ docs:
   previous: Previous versions
 index:
   links:
+    discord:
+      description: Discord
     email:
-      description: "board(at)socoding.cn"
+      description: board(at)socoding.cn
     github:
       description: Organization
     member:
@@ -30,8 +33,6 @@ index:
       description: Organization
     wechat:
       description: Wechat
-    discord:
-      description: Discord
 membership:
   core-members: Core members
   members: Members

@@ -1,8 +1,8 @@
 Download: 下载
 Go: 进入
-Video-play: 播放
 New: 新版
 Old: 旧版
+Video-play: 播放
 button:
   about: 关于
   back: 返回
@@ -10,6 +10,7 @@ button:
   go: 确定
   home: 首页
   links: 链接
+  refresh: 刷新
   toggle_dark: 切换深色模式
   toggle_langs: 切换语言
   tools: 工具
@@ -19,8 +20,10 @@ docs:
     title: 软件协会章程
 index:
   links:
+    discord:
+      description: Discord 频道
     email:
-      description: "board(at)socoding.cn"
+      description: board(at)socoding.cn
     github:
       description: 社交帐号
     member:
@@ -29,8 +32,6 @@ index:
       description: 下属组织
     wechat:
       description: 微信公众号
-    discord:
-      description: Discord 频道
 membership:
   core-members: 核心成员
   members: 会员

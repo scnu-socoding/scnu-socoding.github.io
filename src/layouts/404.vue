@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const router = useRouter()
 const { t } = useI18n()
+
+function refresh() {
+  window.location.replace(`${window.location.pathname}?t=${Date.now()}`)
+}
 </script>
 
 <template>
@@ -16,6 +20,9 @@ const { t } = useI18n()
         </div>
         <button btn text-sm m="3 t8" @click="router.back()">
           {{ t('button.back') }}
+        </button>
+        <button btn text-sm m="3 t8" @click="refresh()">
+          {{ t('button.refresh') }}
         </button>
         <RouterView />
         <div />
