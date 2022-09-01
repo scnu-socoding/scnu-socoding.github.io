@@ -17,14 +17,14 @@ defineProps<{
   <pure-card :title="title" :delay="delay" ma>
     <template #header-extra>
       <div flex>
-        <a v-for="(a, i) of action" :key="i" flex btn text-sm ml-2 :href="a.url" :title="t(a.label)">
+        <a v-for="(a, i) of action" :key="i" flex btn text-sm ml-2 :href="a.url" :title="t(a.label)" target="_blank">
           <div display-none sm:block mr-1>{{ t(a.label) }}</div>
           <div :class="a.icon" />
         </a>
       </div>
     </template>
     <center>
-      <img p-4 bg-zinc-50 dark:bg-zinc-900 w-8rem :src="imageURL">
+      <img p-4 bg-zinc-50 dark:bg-zinc-900 w-18rem :src="imageURL" style="background-color: white">
     </center>
     <template #footer>
       <details v-if="fold" p-4>
