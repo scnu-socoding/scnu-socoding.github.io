@@ -219,7 +219,7 @@
     "/assets/banner.9897aa0c.svg",
     "/assets/favicon.fd06711d.svg"
   ],
-  "assets/app.90a25bcd.js-unocss-hash.css": [
+  "assets/app.676f53d9.js-unocss-hash.css": [
     "/assets/banner.9897aa0c.svg",
     "/assets/favicon.fd06711d.svg"
   ],
@@ -230,102 +230,108 @@
     "/assets/virtual_pwa-register.80a10119.js"
   ],
   "src/layouts/404.vue": [
-    "/assets/404.f83bc394.js"
+    "/assets/404.23794e57.js"
   ],
   "src/layouts/home.vue": [
-    "/assets/home.49b940cb.js"
+    "/assets/home.b669bbb4.js"
   ],
   "src/pages/404.vue": [
-    "/assets/404.6f173d2e.js"
+    "/assets/404.1f0dbfa6.js"
   ],
   "src/pages/[...all].vue": [
-    "/assets/_...all_.63214286.js"
+    "/assets/_...all_.26f685fa.js"
   ],
   "src/pages/about.md": [
-    "/assets/about.ec077664.js"
+    "/assets/about.084867b7.js"
   ],
   "src/pages/bylaws.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/bylaws.9a49f591.js",
+    "/assets/bylaws.77b0f368.js",
     "/assets/bylaws.0c95cffe.css"
   ],
   "src/pages/bylaws.vue": [
-    "/assets/bylaws.9a49f591.js",
+    "/assets/bylaws.77b0f368.js",
     "/assets/bylaws.0c95cffe.css"
   ],
   "src/pages/docs.vue": [
-    "/assets/docs.3aebd326.js"
-  ],
-  "src/components/PureCard.vue": [
-    "/assets/Card.7ac8c68b.js"
+    "/assets/docs.5b66f014.js"
   ],
   "src/components/Card.vue": [
-    "/assets/Card.7ac8c68b.js"
+    "/assets/Card.54443817.js"
+  ],
+  "src/components/PureCard.vue": [
+    "/assets/PureCard.cc833b47.js"
   ],
   "src/pages/links.vue": [
-    "/assets/links.ee984ab5.js"
+    "/assets/links.014259cb.js"
   ],
   "src/pages/member.vue": [
-    "/assets/member.39db8290.js"
+    "/assets/member.cc418329.js"
   ],
   "src/components/Avatar.vue": [
-    "/assets/members.8e69f6d7.js"
+    "/assets/members.3292fea6.js"
   ],
   "src/data/members.json": [
-    "/assets/members.8e69f6d7.js"
+    "/assets/members.3292fea6.js"
   ],
   "src/pages/membera.vue": [
-    "/assets/membera.d10ffff8.js"
+    "/assets/membera.82812e1f.js"
   ],
   "src/components/accordion/Accordion.vue": [
-    "/assets/membership.de58ff66.js"
+    "/assets/membership.dd58b956.js"
   ],
   "src/components/accordion/AccordionRow.vue": [
-    "/assets/membership.de58ff66.js"
+    "/assets/membership.dd58b956.js"
   ],
   "src/data/core-members.json": [
-    "/assets/membership.de58ff66.js"
+    "/assets/membership.dd58b956.js"
   ],
   "src/pages/membership.vue": [
-    "/assets/membership.de58ff66.js"
+    "/assets/membership.dd58b956.js"
   ],
   "src/pages/office.md": [
-    "/assets/office.58790fb0.js"
+    "/assets/office.b52b1b57.js"
   ],
   "public/img/org/shannon.jpg": [
-    "/assets/organization.df6ac253.js",
+    "/assets/organization.02aaa6d2.js",
     "/assets/shannon.304f33f9.jpg",
     "/assets/cococlub.ae38d4e0.jpg"
   ],
   "public/img/org/cococlub.jpg": [
-    "/assets/organization.df6ac253.js",
+    "/assets/organization.02aaa6d2.js",
     "/assets/shannon.304f33f9.jpg",
     "/assets/cococlub.ae38d4e0.jpg"
   ],
   "src/pages/organization.md": [
-    "/assets/organization.df6ac253.js",
+    "/assets/organization.02aaa6d2.js",
     "/assets/shannon.304f33f9.jpg",
     "/assets/cococlub.ae38d4e0.jpg"
   ],
+  "src/components/ImageCard.vue": [
+    "/assets/partners.46002994.js"
+  ],
+  "src/pages/partners.vue": [
+    "/assets/partners.46002994.js"
+  ],
   "src/pages/pv.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/pv.58293891.js",
+    "/assets/pv.5ddbdcfa.js",
     "/assets/pv.3aed56e3.css"
   ],
   "src/pages/pv.vue": [
-    "/assets/pv.58293891.js",
+    "/assets/pv.5ddbdcfa.js",
     "/assets/pv.3aed56e3.css"
   ],
   "src/pages/recruitment.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/recruitment.f88b45c9.js",
+    "/assets/recruitment.d4d50c5b.js",
     "/assets/recruitment.565763cc.css"
   ],
   "src/pages/recruitment.vue": [
-    "/assets/recruitment.f88b45c9.js",
+    "/assets/recruitment.d4d50c5b.js",
     "/assets/recruitment.565763cc.css"
   ],
   "src/pages/en/about.md": [
-    "/assets/about.47a2ac8c.js"
+    "/assets/about.07ca6f18.js"
   ],
   "src/pages/members/[name].vue": [
-    "/assets/_name_.b1b335e6.js"
+    "/assets/_name_.059377bb.js"
   ]
 }
