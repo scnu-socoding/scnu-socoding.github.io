@@ -11,7 +11,6 @@ declare module '@vue/runtime-core' {
     Avatar: typeof import('./components/Avatar.vue')['default']
     Back: typeof import('./components/Back.vue')['default']
     Card: typeof import('./components/Card.vue')['default']
-    'Card copy': typeof import('./components/Card copy.vue')['default']
     ClickCopy: typeof import('./components/ClickCopy.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
     Header: typeof import('./components/Header.vue')['default']
