@@ -16,14 +16,14 @@ const { t } = useI18n()
       <ToolTip :description="t('button.home')">
         <RouterLink class="icon-btn mx-2" to="/" :title="t('button.home')">
           <animate-component duration-300 :delay="0">
-            <div i-carbon-home />
+            <div i-ri-home-2-line />
           </animate-component>
         </RouterLink>
       </ToolTip>
       <ToolTip :description="t('button.docs')">
         <RouterLink class="icon-btn mx-2" to="/docs" :title="t('button.links')">
           <animate-component duration-300 :delay="1">
-            <div i-carbon-book />
+            <div i-ri-book-read-line />
           </animate-component>
         </RouterLink>
       </ToolTip>
@@ -31,7 +31,7 @@ const { t } = useI18n()
       <ToolTip :description="t('button.links')">
         <RouterLink class="icon-btn mx-2" to="/links" :title="t('button.links')">
           <animate-component duration-300 :delay="2">
-            <div i-carbon-link />
+            <div i-ri-links-line />
           </animate-component>
         </RouterLink>
       </ToolTip>
@@ -39,7 +39,7 @@ const { t } = useI18n()
       <ToolTip :description="t('button.about')">
         <RouterLink class="icon-btn mx-2" to="/about" :title="t('button.about')">
           <animate-component duration-300 :delay="3">
-            <div i-carbon-information />
+            <div i-ri-information-line />
           </animate-component>
         </RouterLink>
       </ToolTip>
@@ -53,7 +53,7 @@ const { t } = useI18n()
       <ToolTip :description="t('button.toggle_dark')">
         <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
           <animate-component duration-300 :delay="4">
-            <div i="carbon-sun dark:carbon-moon" />
+            <div i="ri-sun-line dark:ri-moon-line" />
           </animate-component>
         </button>
       </ToolTip>
