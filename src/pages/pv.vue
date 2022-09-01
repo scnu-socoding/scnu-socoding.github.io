@@ -42,8 +42,9 @@ function openBilibili() {
     <div id="dplayer" />
   </div>
   <br>
-
-  <button btn text-sm m="3 t8" @click="openBilibili()">
+  原素材、音乐、创意来自原神官方。SoCoding 为学校非盈利学生社团组织。
+  <br>
+  <button btn text-sm m="3 t4" @click="openBilibili()">
     关注烧风喵，关注烧风谢谢喵~
   </button>
 </template>

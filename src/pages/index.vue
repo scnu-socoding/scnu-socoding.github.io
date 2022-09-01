@@ -14,6 +14,7 @@ document.title = 'SCNU SoCoding'
     ma lg:mt-4rem
     :class="(isDark?'dark-filter ':'') + 'bg-img animate-fadein-shift-y--2-1000'"
   />
+  <br>
 
   <div
     text-xl sm:text-2xl lg:text-3xl

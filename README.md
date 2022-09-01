@@ -4,7 +4,7 @@
 
 ## SCNU SoCoding 主页
 
-基于 [manim-kindergarten.github.io](https://github.com/manim-kindergarten/manim-kindergarten.github.io)，使用 [vitesse](https://github.com/antfu/vitesse) 脚手架创建
+使用 [vitesse](https://github.com/antfu/vitesse) 脚手架创建，衍生自 [manim-kindergarten.github.io](https://github.com/manim-kindergarten/manim-kindergarten.github.io) 
 
 ## 如何部署
 
