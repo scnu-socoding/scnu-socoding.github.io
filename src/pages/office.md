@@ -2,7 +2,7 @@
 
 章程以及下面的职务、代号、所属均为暂定，开学后举行一次代表大会正式确认换届
 
-如有疑问请致信：[hr@socoding.cn](mailto://hr@socoding.cn)
+如有疑问请致信：[board@socoding.cn](mailto://board@socoding.cn)
 
 **注：排序不分先后**
 
