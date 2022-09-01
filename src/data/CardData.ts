@@ -10,3 +10,10 @@ export interface CardData {
   action: Array<Action>
   fold?: { label: string; content: string }
 }
+
+export interface ImageCardData {
+  title: string
+  url: string
+  action: Array<Action>
+  fold?: { label: string; content: string }
+}

@@ -20,4 +20,6 @@ title: 关于我们 | SCNU SoCoding
 
 [华南师范大学软件协会章程](/bylaws)
 
-[SoCoding 招新说明](./recruitment)
+[SoCoding 招新说明](/recruitment)
+
+[合作伙伴](/partners)
