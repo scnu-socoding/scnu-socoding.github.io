@@ -219,7 +219,7 @@
     "/assets/banner.9897aa0c.svg",
     "/assets/favicon.fd06711d.svg"
   ],
-  "assets/app.f874c924.js-unocss-hash.css": [
+  "assets/app.90a25bcd.js-unocss-hash.css": [
     "/assets/banner.9897aa0c.svg",
     "/assets/favicon.fd06711d.svg"
   ],
@@ -230,102 +230,102 @@
     "/assets/virtual_pwa-register.80a10119.js"
   ],
   "src/layouts/404.vue": [
-    "/assets/404.df6a3ec3.js"
+    "/assets/404.f83bc394.js"
   ],
   "src/layouts/home.vue": [
-    "/assets/home.23384341.js"
+    "/assets/home.49b940cb.js"
   ],
   "src/pages/404.vue": [
-    "/assets/404.22de1a62.js"
+    "/assets/404.6f173d2e.js"
   ],
   "src/pages/[...all].vue": [
-    "/assets/_...all_.9bc48e96.js"
+    "/assets/_...all_.63214286.js"
   ],
   "src/pages/about.md": [
-    "/assets/about.10701b5a.js"
+    "/assets/about.ec077664.js"
   ],
   "src/pages/bylaws.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/bylaws.0694ed72.js",
+    "/assets/bylaws.9a49f591.js",
     "/assets/bylaws.0c95cffe.css"
   ],
   "src/pages/bylaws.vue": [
-    "/assets/bylaws.0694ed72.js",
+    "/assets/bylaws.9a49f591.js",
     "/assets/bylaws.0c95cffe.css"
   ],
   "src/pages/docs.vue": [
-    "/assets/docs.b8a68ec9.js"
+    "/assets/docs.3aebd326.js"
   ],
   "src/components/PureCard.vue": [
-    "/assets/Card.e461649a.js"
+    "/assets/Card.7ac8c68b.js"
   ],
   "src/components/Card.vue": [
-    "/assets/Card.e461649a.js"
+    "/assets/Card.7ac8c68b.js"
   ],
   "src/pages/links.vue": [
-    "/assets/links.57a15f17.js"
+    "/assets/links.ee984ab5.js"
   ],
   "src/pages/member.vue": [
-    "/assets/member.46a7992d.js"
+    "/assets/member.39db8290.js"
   ],
   "src/components/Avatar.vue": [
-    "/assets/members.adb369de.js"
+    "/assets/members.8e69f6d7.js"
   ],
   "src/data/members.json": [
-    "/assets/members.adb369de.js"
+    "/assets/members.8e69f6d7.js"
   ],
   "src/pages/membera.vue": [
-    "/assets/membera.dea578fa.js"
+    "/assets/membera.d10ffff8.js"
   ],
   "src/components/accordion/Accordion.vue": [
-    "/assets/membership.a68432ef.js"
+    "/assets/membership.de58ff66.js"
   ],
   "src/components/accordion/AccordionRow.vue": [
-    "/assets/membership.a68432ef.js"
+    "/assets/membership.de58ff66.js"
   ],
   "src/data/core-members.json": [
-    "/assets/membership.a68432ef.js"
+    "/assets/membership.de58ff66.js"
   ],
   "src/pages/membership.vue": [
-    "/assets/membership.a68432ef.js"
+    "/assets/membership.de58ff66.js"
   ],
   "src/pages/office.md": [
-    "/assets/office.3c1ad6e6.js"
+    "/assets/office.58790fb0.js"
   ],
   "public/img/org/shannon.jpg": [
-    "/assets/organization.5f1afc67.js",
+    "/assets/organization.df6ac253.js",
     "/assets/shannon.304f33f9.jpg",
     "/assets/cococlub.ae38d4e0.jpg"
   ],
   "public/img/org/cococlub.jpg": [
-    "/assets/organization.5f1afc67.js",
+    "/assets/organization.df6ac253.js",
     "/assets/shannon.304f33f9.jpg",
     "/assets/cococlub.ae38d4e0.jpg"
   ],
   "src/pages/organization.md": [
-    "/assets/organization.5f1afc67.js",
+    "/assets/organization.df6ac253.js",
     "/assets/shannon.304f33f9.jpg",
     "/assets/cococlub.ae38d4e0.jpg"
   ],
   "src/pages/pv.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/pv.dab544a1.js",
-    "/assets/pv.6f2ecc60.css"
+    "/assets/pv.58293891.js",
+    "/assets/pv.3aed56e3.css"
   ],
   "src/pages/pv.vue": [
-    "/assets/pv.dab544a1.js",
-    "/assets/pv.6f2ecc60.css"
+    "/assets/pv.58293891.js",
+    "/assets/pv.3aed56e3.css"
   ],
   "src/pages/recruitment.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/recruitment.240040c1.js",
+    "/assets/recruitment.f88b45c9.js",
     "/assets/recruitment.565763cc.css"
   ],
   "src/pages/recruitment.vue": [
-    "/assets/recruitment.240040c1.js",
+    "/assets/recruitment.f88b45c9.js",
     "/assets/recruitment.565763cc.css"
   ],
   "src/pages/en/about.md": [
-    "/assets/about.2a589047.js"
+    "/assets/about.47a2ac8c.js"
   ],
   "src/pages/members/[name].vue": [
-    "/assets/_name_.07dd2979.js"
+    "/assets/_name_.b1b335e6.js"
   ]
 }
