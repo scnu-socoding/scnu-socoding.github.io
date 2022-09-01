@@ -16,11 +16,13 @@ title: 下属组织 | SoCoding
 
 **椰风游戏开发社（CocoClub）** 是软件协会下属的游戏、多媒体和交互技术兴趣社团，由 [Cocos 游戏引擎官方](//www.cocos.com) 赞助。我们的成员来自华师、广美、广工等诸多高校，我们都对以娱乐性为根本的游戏和相关文化、技术感兴趣，并愿意不断学习和创作。
 
-我们的多位成员参加过游戏开发相关竞赛和 [Game Jam](//globalgamejam.org)。成员曾获得诸多奖项，包括[微信小游戏开发赛](//developers.weixin.qq.com/community/competition)全国第一名、[中国大学生游戏开发创作大赛(CUSGA)](//www.ugdap.com)决赛获奖等。
+我们的多位成员参加过游戏开发相关竞赛和 [Game Jam](//globalgamejam.org)。成员曾获得诸多奖项，包括[微信小游戏开发赛](//developers.weixin.qq.com/community/competition)全国第一名、[中国大学生游戏开发创作大赛 (CUSGA)](//www.ugdap.com) 决赛获奖等。
 
 我们在校内外组织或参加过数次游戏技术分享活动，校内我们邀请过[游戏开发工程师](//lamyoung.com/)开设讲座、[面向全国的在线直播课程](//ss.scnu.edu.cn/a/20220705/3776.html)。校外我们组织过 [StarMeeting](//www.cocos.com/cocos-star-meetings-广州首发！)、参加过 [CiGA 开发者沙龙](//www.ciga.me/ciga/)等。
 
 无论你是想做游戏的美术、脑洞大开的策划，还是头发还没掉光的程序，椰社都欢迎你的加入。
 
 ### 欢迎加入我们
-欢迎每一位与我们志同道合的同学加入我们~ 请查看 [SoCoding 招新说明](/recruitment)
+欢迎每一位与我们志同道合的同学加入我们~
+
+请查看 [SoCoding 招新说明](/recruitment)
