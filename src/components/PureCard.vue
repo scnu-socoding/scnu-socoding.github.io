@@ -22,7 +22,9 @@ defineProps<{
       p-4
       bg-zinc-100 dark:bg-zinc-800
     >
-      <h2>{{ title }}</h2>
+      <h2 style="font-weight: bold">
+        {{ title }}
+      </h2>
       <slot name="header-extra" />
     </div>
     <slot />

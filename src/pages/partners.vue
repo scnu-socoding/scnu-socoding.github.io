@@ -1,24 +1,15 @@
 <script setup lang="ts">
-import type { ImageCardData } from '~/data/CardData'
+import partnersData from '~/data/partners'
 
 const { t } = useI18n()
 
 document.title = '合作伙伴 | SoCoding'
 
-const data: ImageCardData[] = [
-  {
-    title: '合作伙伴 | Cocos 游戏引擎',
-    url: '/img/partners/cocos.png',
-    action: [
-      { label: 'Go', icon: 'i-ri-links-fill', url: '//www.cocos.com/?media_source=shao' },
-    ],
-  },
-]
 </script>
 
 <template>
   <ImageCard
-    v-for="(it, i) in data"
+    v-for="(it, i) in partnersData"
     :key="i"
     :title="t(it.title)"
     :image-u-r-l="it.url"

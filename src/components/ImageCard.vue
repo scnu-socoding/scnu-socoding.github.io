@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Action } from '~/data/CardData'
+import { isDark } from '~/composables'
 
 const { t } = useI18n()
 
@@ -24,7 +25,7 @@ defineProps<{
       </div>
     </template>
     <center>
-      <img p-4 bg-zinc-50 dark:bg-zinc-900 w-18rem :src="imageURL" style="background-color: white">
+      <img :class="isDark?'dark-filter':''" p-4 bg-zinc-50 dark:bg-zinc-900 w-17rem :src="imageURL" style="background-color: white">
     </center>
     <template #footer>
       <details v-if="fold" p-4>
@@ -36,3 +37,11 @@ defineProps<{
     </template>
   </pure-card>
 </template>
+
+<style scoped>
+
+  .dark-filter  {
+    filter: invert(0.93) hue-rotate(180deg) !important;
+  }
+
+</style>
