@@ -13,7 +13,7 @@ const { t } = useI18n()
         <a href="/">
           <ToolTipsProvider>
             <ToolTip :description="t('web-name')">
-              <img :class="isDark?'dark-filter':''" src="../../public/img/icons/banner.svg" width="160">
+              <img :class="isDark?'dark-filter':''" src="../../public/img/icons/banner.svg" width="170">
             </ToolTip>
           </ToolTipsProvider>
         </a>
