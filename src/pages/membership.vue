@@ -33,7 +33,7 @@ document.title = '成员们 | SoCoding'
     </AccordionRow>
     <AccordionRow name="partners" :title="t('membership.partners')">
       <p color-zinc-300 dark:color-zinc-600 pb-2>
-        我们很高兴与你一起，联系 board@socoding.cn
+        我们很高兴与你们一起，联系 board@socoding.cn
       </p>
       <ToolTipsProvider :gap="1">
         <ImageCard
