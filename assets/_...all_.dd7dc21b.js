@@ -1,1 +1,0 @@
-import{d as t,i as o}from"./app.0276de77.js";const e=t({__name:"[...all]",setup(n){return document.title="\u9875\u9762\u627E\u4E0D\u5230\u5566 | SoCoding",()=>{}}});typeof o=="function"&&o(e);export{e as default};
