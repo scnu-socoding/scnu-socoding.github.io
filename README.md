@@ -9,11 +9,9 @@
 ## 如何部署
 
 ```shell
-> git clone https://github.com/scnu-socoding/scnu-socoding.github.io.git
-
-> cd scnu-socoding.github.io
-
-> yarn install
+git clone https://github.com/scnu-socoding/scnu-socoding.github.io.git
+cd scnu-socoding.github.io
+yarn install
 ```
 
 之后使用 Visual Studio Code 打开项目根目录即可
