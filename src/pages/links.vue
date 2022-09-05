@@ -35,7 +35,7 @@ const data: CardData[] = [
     ],
   },
   {
-    title: '友联 | 0xFFFF 搬砖技术社区',
+    title: '友链 | 0xFFFF 搬砖技术社区',
     description: '这是一个很棒的技术交流平台和学习平台哦~',
     action: [
       { label: 'Go', icon: 'i-ri-links-fill', url: '//0xffff.one' },
@@ -51,5 +51,5 @@ const data: CardData[] = [
     :delay="i"
   />
 
-  欢迎加入我们的友联，通过 <a href="mailto:board@socoding.cn">board@socoding.cn</a> 联系我们
+  欢迎加入我们的友链，通过 <a href="mailto:board@socoding.cn">board@socoding.cn</a> 联系我们
 </template>
