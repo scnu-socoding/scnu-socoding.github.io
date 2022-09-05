@@ -21,7 +21,7 @@ window.onresize = window.onload = () => {
     onload="this.height=this.contentWindow.document.body.scrollHeight"
     onresize="this.height=this.contentWindow.document.body.scrollHeight"
     allowTransparency="true"
-    src="static/bylaws.html" width="100%" frameborder="0"
+    src="/static/bylaws.html" width="100%" frameborder="0"
     sandbox="allow-same-origin allow-top-navigation allow-forms allow-scripts allow-popups"
   />
 

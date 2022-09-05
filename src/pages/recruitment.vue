@@ -19,7 +19,7 @@ window.onresize = window.onload = () => {
     style="overflow:hidden;"
     scrolling="no"
     allowTransparency="true"
-    src="static/recruitment.html" width="100%" frameborder="0"
+    src="/static/recruitment.html" width="100%" frameborder="0"
     onload="this.height=this.contentWindow.document.body.scrollHeight"
     onresize="this.height=this.contentWindow.document.body.scrollHeight"
     sandbox="allow-same-origin allow-top-navigation allow-forms allow-scripts allow-popups"

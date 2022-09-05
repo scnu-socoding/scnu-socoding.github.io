@@ -32,7 +32,7 @@ const data: CardData[] = [
     description: '这是我们重整后的第一部暂行章程',
     action: [
       { label: 'Go', icon: 'i-ri-links-fill', url: '/bylaws' },
-      { label: 'Download', icon: 'i-carbon-download', url: '../public/download/bylaws.pdf' }],
+      { label: 'Download', icon: 'i-carbon-download', url: '/static/download/bylaws.pdf' }],
   },
   {
     title: '软协 | SoCoding Discord',
