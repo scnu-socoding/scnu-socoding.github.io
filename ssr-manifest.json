@@ -219,7 +219,7 @@
     "/assets/banner.7fc8b2c0.svg",
     "/assets/favicon.fd06711d.svg"
   ],
-  "assets/app.b4fe91f3.js-unocss-hash.css": [
+  "assets/app.ab3a901f.js-unocss-hash.css": [
     "/assets/banner.7fc8b2c0.svg",
     "/assets/favicon.fd06711d.svg"
   ],
@@ -230,117 +230,114 @@
     "/assets/virtual_pwa-register.80a10119.js"
   ],
   "src/layouts/404.vue": [
-    "/assets/404.a930f649.js"
+    "/assets/404.4bbe8308.js"
   ],
   "src/layouts/home.vue": [
-    "/assets/home.7f12e156.js"
+    "/assets/home.c8257f12.js"
   ],
   "src/pages/404.vue": [
-    "/assets/404.4fa9d00a.js"
+    "/assets/404.216dc900.js"
   ],
   "src/pages/[...all].vue": [
-    "/assets/_...all_.3a2a8c8b.js"
+    "/assets/_...all_.86c0e275.js"
   ],
   "src/pages/about.md": [
-    "/assets/about.c047c016.js"
+    "/assets/about.f91e923d.js"
   ],
   "src/pages/bylaws.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/bylaws.356bd82e.js",
+    "/assets/bylaws.cfb57b62.js",
     "/assets/bylaws.083952ab.css"
   ],
   "src/pages/bylaws.vue": [
-    "/assets/bylaws.356bd82e.js",
+    "/assets/bylaws.cfb57b62.js",
     "/assets/bylaws.083952ab.css"
   ],
   "src/pages/docs.vue": [
-    "/assets/docs.589f7856.js"
+    "/assets/docs.02ae41bd.js"
   ],
   "src/components/Card.vue": [
-    "/assets/Card.d73689ec.js"
+    "/assets/Card.1130ea72.js"
   ],
   "src/components/PureCard.vue": [
-    "/assets/PureCard.a0cd8b6a.js"
+    "/assets/PureCard.e80901e0.js"
   ],
   "src/pages/links.vue": [
-    "/assets/links.606b9fa9.js"
+    "/assets/links.425841b4.js"
   ],
   "src/pages/member.vue": [
-    "/assets/member.6a02c97b.js"
+    "/assets/member.c0395ed9.js"
   ],
   "src/components/Avatar.vue": [
-    "/assets/members.b69364dd.js"
+    "/assets/members.64bc555d.js"
   ],
   "src/data/members.json": [
-    "/assets/members.b69364dd.js"
-  ],
-  "src/pages/membera.vue": [
-    "/assets/membera.9392d33a.js"
+    "/assets/members.64bc555d.js"
   ],
   "src/components/accordion/Accordion.vue": [
-    "/assets/membership.44ac6654.js"
+    "/assets/membership.51861560.js"
   ],
   "src/components/accordion/AccordionRow.vue": [
-    "/assets/membership.44ac6654.js"
+    "/assets/membership.51861560.js"
   ],
   "src/data/core-members.json": [
-    "/assets/membership.44ac6654.js"
+    "/assets/membership.51861560.js"
   ],
   "src/pages/membership.vue": [
-    "/assets/membership.44ac6654.js"
+    "/assets/membership.51861560.js"
   ],
   "src/components/ImageCard.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/partners.97a5349f.js",
+    "/assets/partners.7b9e7c85.js",
     "/assets/partners.cd08e1d0.css"
   ],
   "src/components/ImageCard.vue": [
-    "/assets/partners.97a5349f.js",
+    "/assets/partners.7b9e7c85.js",
     "/assets/partners.cd08e1d0.css"
   ],
   "src/data/partners.ts": [
-    "/assets/partners.97a5349f.js",
+    "/assets/partners.7b9e7c85.js",
     "/assets/partners.cd08e1d0.css"
   ],
   "src/pages/office.md": [
-    "/assets/office.047cb48d.js"
+    "/assets/office.6b6352c9.js"
   ],
   "public/img/org/shannon.jpg": [
-    "/assets/organization.1ccfe83b.js",
+    "/assets/organization.67e996b4.js",
     "/assets/shannon.304f33f9.jpg",
     "/assets/cococlub.ae38d4e0.jpg"
   ],
   "public/img/org/cococlub.jpg": [
-    "/assets/organization.1ccfe83b.js",
+    "/assets/organization.67e996b4.js",
     "/assets/shannon.304f33f9.jpg",
     "/assets/cococlub.ae38d4e0.jpg"
   ],
   "src/pages/organization.md": [
-    "/assets/organization.1ccfe83b.js",
+    "/assets/organization.67e996b4.js",
     "/assets/shannon.304f33f9.jpg",
     "/assets/cococlub.ae38d4e0.jpg"
   ],
   "src/pages/partners.vue": [
-    "/assets/partners.296036d5.js"
+    "/assets/partners.a077e5f7.js"
   ],
   "src/pages/pv.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/pv.eb69e476.js",
+    "/assets/pv.6c5beff4.js",
     "/assets/pv.3aed56e3.css"
   ],
   "src/pages/pv.vue": [
-    "/assets/pv.eb69e476.js",
+    "/assets/pv.6c5beff4.js",
     "/assets/pv.3aed56e3.css"
   ],
   "src/pages/recruitment.vue?vue&type=style&index=0&scoped=true&lang.css": [
-    "/assets/recruitment.27daba32.js",
+    "/assets/recruitment.e00d98da.js",
     "/assets/recruitment.0f20ae53.css"
   ],
   "src/pages/recruitment.vue": [
-    "/assets/recruitment.27daba32.js",
+    "/assets/recruitment.e00d98da.js",
     "/assets/recruitment.0f20ae53.css"
   ],
   "src/pages/en/about.md": [
-    "/assets/about.1cf2c1eb.js"
+    "/assets/about.5a022b3d.js"
   ],
   "src/pages/members/[name].vue": [
-    "/assets/_name_.b98220fd.js"
+    "/assets/_name_.b5a14c85.js"
   ]
 }
