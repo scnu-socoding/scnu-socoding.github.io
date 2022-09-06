@@ -16,23 +16,14 @@ else
 
 function downloadThis() {
   if (isFile) {
-    const xhr = new XMLHttpRequest()
-    xhr.open('GET', location.href, true)
-    xhr.responseType = 'blob'
-    xhr.onload = function (e) {
-      if (this.status === 200) {
-        const blob = this.response
-        const a = document.createElement('a')
-        blob.type = 'application/octet-stream'
-        const url = URL.createObjectURL(blob)
-
-        a.href = url
-        a.download = fileName
-        a.click()
-        window.URL.revokeObjectURL(url)
-      }
-    }
-    xhr.send()
+    fetch('https://socoding.cn/static/download/bylaws.pdf').then(res => res.blob().then((blob) => {
+      const a = document.createElement('a')
+      const url = window.URL.createObjectURL(blob)
+      a.href = url
+      a.download = fileName
+      a.click()
+      window.URL.revokeObjectURL(url)
+    }))
   }
 }
 </script>
