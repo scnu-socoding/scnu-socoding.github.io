@@ -16,14 +16,16 @@ else
 
 function downloadThis() {
   if (isFile) {
-    fetch('https://socoding.cn/static/download/bylaws.pdf').then(res => res.blob().then((blob) => {
-      const a = document.createElement('a')
-      const url = window.URL.createObjectURL(blob)
-      a.href = url
-      a.download = fileName
-      a.click()
-      window.URL.revokeObjectURL(url)
-    }))
+    fetch(location.href)
+      .then(res => res.blob()
+        .then((blob) => {
+          const a = document.createElement('a')
+          const url = window.URL.createObjectURL(blob)
+          a.href = url
+          a.download = fileName
+          a.click()
+          window.URL.revokeObjectURL(url)
+        }))
   }
 }
 </script>
