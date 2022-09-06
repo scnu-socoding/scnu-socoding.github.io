@@ -32,7 +32,7 @@ function downloadThis() {
         window.URL.revokeObjectURL(url)
       }
     }
-    setTimeout(() => { xhr.send() }, 0)
+    xhr.send()
   }
 }
 </script>
