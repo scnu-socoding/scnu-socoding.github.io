@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import links from '~/data/links'
-import * as members from '~/data/members.json'
+import membersData from '~/data/members'
 
 const { t } = useI18n()
 
 const props = defineProps({ name: String })
 const name = props.name
 
-const member = members.data.find(it => it.englishName === name || it.name === name)
+const member = membersData.find(it => it.englishName === name || it.name === name)
 
 const avatarPath = `/avatar/${member?.englishName.toLowerCase()}.png`
 

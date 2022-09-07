@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import partnersData from '~/data/partners'
-import * as coreMembers from '~/data/core-members.json'
-import * as members from '~/data/members.json'
+import membersData from '~/data/members'
+
+const coreMembers = membersData.filter(it => it.belongs.includes('委员会'))
+const allMembers = membersData.filter(it => it.belongs.includes('会员'))
 
 const { t } = useI18n()
 
@@ -16,7 +18,7 @@ document.title = '成员们 | SoCoding'
         按照姓名拼音排序，如有遗漏请联系 <a href="mailto:hr@socoding.cn">hr@socoding.cn</a>
       </p>
       <ToolTipsProvider :gap="1">
-        <ToolTip v-for="(it, i) in coreMembers.data" :key="i" :description="it.name">
+        <ToolTip v-for="(it, i) in coreMembers" :key="i" :description="it.name">
           <Avatar :avatar="`/avatar/${it.englishName.toLowerCase()}.png`" :name="it.name" :link="`/members/${it.englishName}`" />
         </ToolTip>
       </ToolTipsProvider>
@@ -26,7 +28,7 @@ document.title = '成员们 | SoCoding'
         按照姓名拼音排序，如有遗漏请联系 <a href="mailto:hr@socoding.cn">hr@socoding.cn</a>
       </p>
       <ToolTipsProvider :gap="1">
-        <ToolTip v-for="(it, i) in members.data" :key="i" :description="it.name">
+        <ToolTip v-for="(it, i) in allMembers" :key="i" :description="it.name">
           <Avatar :avatar="`/avatar/${it.englishName.toLowerCase()}.png`" :name="it.name" :link="`/members/${it.englishName}`" />
         </ToolTip>
       </ToolTipsProvider>

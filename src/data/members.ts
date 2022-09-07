@@ -1,0 +1,148 @@
+const membersData = [
+  {
+    name: '包楠玉',
+    englishName: 'BaoNanYu',
+    code: 'CFO/财务',
+    belongs: 'SoCoding/会员;SoCoding/委员会/运营部',
+  },
+  {
+    name: '蔡逸彬',
+    englishName: 'CaiYiBin',
+    code: 'XSO/战略',
+    belongs: 'SoCoding/委员会/发展组;SoCoding/会员',
+  },
+  {
+    name: '陈嘉成',
+    englishName: 'ChenJiaCheng',
+    code: 'GuoDong/香农负责人',
+    belongs: 'SoCoding/会员;SoCoding/委员会/发展组/香农先修班',
+  },
+  {
+    name: '陈家骏',
+    englishName: 'ChenJiaJun',
+    code: 'A1m233/香农负责人',
+    belongs: 'SoCoding/委员会/发展组/香农先修班;SoCoding/会员',
+  },
+  {
+    name: '甘一伟',
+    englishName: 'GanYiWei',
+    code: 'dakta/香农主要负责人',
+    belongs: 'SoCoding/委员会/发展组/香农先修班;SoCoding/会员',
+  },
+  {
+    name: '何思嘉',
+    englishName: 'HeSiJia',
+    code: 'Coco/椰社主要负责人',
+    belongs: 'SoCoding/委员会/发展组/椰风游戏开发社;SoCoding/会员',
+  },
+  {
+    name: '胡铭华',
+    englishName: 'HuMingHua',
+    code: 'CTO/技术',
+    belongs: 'SoCoding/委员会/技术部;SoCoding/会员',
+  },
+  {
+    name: '赖柏宇',
+    englishName: 'LaiBoYu',
+    code: 'XSO/战略',
+    belongs: 'SoCoding/委员会/发展组;SoCoding/会员',
+  },
+  {
+    name: '李彩桦',
+    englishName: 'LiCaiHua',
+    code: 'CDO/设计',
+    belongs: 'SoCoding/会员;SoCoding/委员会/信宣部',
+  },
+  {
+    name: '李勉鑫',
+    englishName: 'LiMianXin',
+    code: 'comeon/香农负责人',
+    belongs: 'SoCoding/委员会/发展组/香农先修班;SoCoding/会员',
+  },
+  {
+    name: '林美君',
+    englishName: 'LinMeiJun',
+    code: 'CHO/人资',
+    belongs: 'SoCoding/委员会/运营部;SoCoding/会员',
+  },
+  {
+    name: '刘骏龙',
+    englishName: 'LiuJunLong',
+    code: 'CHO/人资',
+    belongs: 'SoCoding/委员会/运营部;SoCoding/会员',
+  },
+  {
+    name: '吕昊达',
+    englishName: 'LvHaoDa',
+    code: 'XSO/战略',
+    belongs: 'SoCoding/会员;SoCoding/委员会/发展组',
+  },
+  {
+    name: '马吴越',
+    englishName: 'MaWuYue',
+    code: 'CTO/技术',
+    belongs: 'SoCoding/委员会/技术部;SoCoding/会员',
+  },
+  {
+    name: '邱越洋',
+    englishName: 'QiuYueYang',
+    code: 'XEO/副会长',
+    belongs: 'SoCoding/委员会;SoCoding/会员',
+  },
+  {
+    name: '唐思涵',
+    englishName: 'TangSiHan',
+    code: 'COO/运营',
+    belongs: 'SoCoding/委员会/运营部;SoCoding/会员',
+  },
+  {
+    name: '覃梓鑫',
+    englishName: 'QinZiXin',
+    code: 'XEO/副会长',
+    belongs: 'SoCoding/委员会;SoCoding/会员',
+  },
+  {
+    name: '王家晔',
+    englishName: 'WangJiaYe',
+    code: 'CEO/会长',
+    belongs: 'SoCoding;SoCoding/委员会;SoCoding/会员',
+  },
+  {
+    name: '吴清源',
+    englishName: 'WuQingYuan',
+    code: 'dayuanx/香农主要负责人',
+    belongs: 'SoCoding/委员会/发展组/香农先修班;SoCoding/会员',
+  },
+  {
+    name: '袁子锋',
+    englishName: 'YuanZiFeng',
+    code: 'Tension/香农负责人',
+    belongs: 'SoCoding/委员会/发展组/香农先修班;SoCoding/会员',
+  },
+  {
+    name: '曾熙茵',
+    englishName: 'ZengXiYin',
+    code: 'CIO/信息',
+    belongs: 'SoCoding/委员会/技术部;SoCoding/会员',
+  },
+  {
+    name: '张成',
+    englishName: 'ZhangCheng',
+    code: 'COO/运营',
+    belongs: 'SoCoding/委员会/运营部;SoCoding/会员',
+  },
+  {
+    name: '张佳乐',
+    englishName: 'ZhangJiaLe',
+    code: 'XEO/副会长',
+    belongs: 'SoCoding/委员会;SoCoding/会员',
+  },
+  {
+    name: '郑景仁',
+    englishName: 'ZhengJingRen',
+    code: 'CMO/市场',
+    belongs: 'SoCoding/会员;SoCoding/委员会/信宣部',
+  },
+]
+
+export default membersData
