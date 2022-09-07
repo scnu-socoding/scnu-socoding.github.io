@@ -12,6 +12,7 @@ const data: CardData[] = [
     action: [
       { label: 'Go', icon: 'i-ri-links-fill', url: '//oj.socoding.cn' },
     ],
+    target: '_blank',
   },
   {
     title: '软协 | SoCoding Cloud',
@@ -19,6 +20,7 @@ const data: CardData[] = [
     action: [
       { label: 'Go', icon: 'i-ri-links-fill', url: '//cloud.socoding.cn' },
     ],
+    target: '_blank',
   },
   {
     title: '软协 | SoCoding Puzzle',
@@ -26,6 +28,7 @@ const data: CardData[] = [
     action: [
       { label: 'Go', icon: 'i-ri-links-fill', url: '//puzzle.socoding.cn' },
     ],
+    target: '_blank',
   },
   {
     title: '软协 | SoCoding Status',
@@ -33,6 +36,7 @@ const data: CardData[] = [
     action: [
       { label: 'Go', icon: 'i-ri-links-fill', url: '//status.socoding.cn' },
     ],
+    target: '_blank',
   },
   {
     title: '友链 | 0xFFFF 搬砖技术社区',
@@ -40,6 +44,7 @@ const data: CardData[] = [
     action: [
       { label: 'Go', icon: 'i-ri-links-fill', url: '//0xffff.one' },
     ],
+    target: '_blank',
   },
 
 ]
@@ -48,7 +53,7 @@ const data: CardData[] = [
 <template>
   <Card
     v-for="(it, i) in data" :key="i" :title="t(it.title)" :description="t(it.description)" :action="it.action"
-    :delay="i"
+    :delay="i" :target="it.target"
   />
 
   欢迎加入我们的友链，通过 <a href="mailto:board@socoding.cn">board@socoding.cn</a> 联系我们

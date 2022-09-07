@@ -9,6 +9,7 @@ export interface CardData {
   description: string
   action: Array<Action>
   fold?: { label: string; content: string }
+  target?: '_blank' | '_self'
 }
 
 export interface ImageCardData {
