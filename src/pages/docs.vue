@@ -17,21 +17,21 @@ const data: CardData[] = [
     title: '软协 | SoCoding 招新流程',
     description: '如果想加入我们，快来看看叭~',
     action: [
-      { label: 'Go', icon: 'i-ri-links-fill', url: '/recruitment' },
+      { label: 'Go', icon: 'i-ri-external-link-line', url: '/recruitment' },
     ],
   },
   {
     title: '软协 | SoCoding 换届公示',
     description: '这是我们委员会的职务交付表~',
     action: [
-      { label: 'Go', icon: 'i-ri-links-fill', url: '/office' },
+      { label: 'Go', icon: 'i-ri-external-link-line', url: '/office' },
     ],
   },
   {
     title: '软协 | SoCoding 暂行章程',
     description: '这是我们重整后的第一部暂行章程',
     action: [
-      { label: 'Go', icon: 'i-ri-links-fill', url: '/bylaws' },
+      { label: 'Go', icon: 'i-ri-external-link-line', url: '/bylaws' },
       { label: 'Download', icon: 'i-carbon-download', url: '/static/download/bylaws.pdf' }],
   },
   {
