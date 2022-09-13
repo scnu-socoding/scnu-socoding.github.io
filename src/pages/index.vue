@@ -48,6 +48,18 @@ document.title = 'SCNU SoCoding'
       background-size: contain;
       background-repeat: no-repeat;
   }
+
+.chisato{
+  position: fixed;
+  left: 24px;
+  bottom: 24px;
+}
+
+.takina{
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+}
 }
 
 @media screen and (max-width: 1024px) {
@@ -57,6 +69,14 @@ document.title = 'SCNU SoCoding'
     background-size: contain;
     background-repeat: no-repeat;
   }
+
+.chisato{
+  visibility: hidden;
+}
+
+.takina{
+  visibility: hidden;
+}
 }
 </style>
 
