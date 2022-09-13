@@ -1,21 +1,24 @@
 <script setup lang="ts">
 
-document.title = 'PV | SoCoding'
+if (document)
+  document.title = 'PV | SoCoding'
 
 function createScript(src: string, callback?: () => void) {
-  const oScript = document.createElement('script')
-  oScript.type = 'text/javascript'
-  oScript.src = src
-  document.body.appendChild(oScript)
-  if (callback)
-    oScript.addEventListener('load', callback)
+  if (document) {
+    const oScript = document.createElement('script')
+    oScript.type = 'text/javascript'
+    oScript.src = src
+    document.body.appendChild(oScript)
+    if (callback)
+      oScript.addEventListener('load', callback)
+  }
 }
 
 createScript('//cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js', () => {
   createScript('//cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js', () => {
     // eslint-disable-next-line no-new
     new DPlayer({
-      container: document.getElementById('dplayer'),
+      container: document?.getElementById('dplayer'),
       video: {
         url: '//cdn.jsdelivr.net/gh/scnu-socoding/static/media/SoCoding-2022-PV-head-1080p-low/play/playlist.m3u8',
         type: 'hls',
@@ -29,7 +32,7 @@ createScript('//cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js', () => {
 })
 
 function openBilibili() {
-  window.open('//www.bilibili.com/video/BV1cG411578F')
+  window?.open('//www.bilibili.com/video/BV1cG411578F')
 }
 
 </script>

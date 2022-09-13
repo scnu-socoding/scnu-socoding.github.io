@@ -3,7 +3,8 @@ import type { CardData } from '~/data/CardData'
 
 const { t } = useI18n()
 
-document.title = '链接 | SoCoding'
+if (document)
+  document.title = '链接 | SoCoding'
 
 const data: CardData[] = [
   {

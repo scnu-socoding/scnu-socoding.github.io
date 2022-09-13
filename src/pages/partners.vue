@@ -3,7 +3,8 @@ import partnersData from '~/data/partners'
 
 const { t } = useI18n()
 
-document.title = '合作伙伴 | SoCoding'
+if (document)
+  document.title = '合作伙伴 | SoCoding'
 
 </script>
 

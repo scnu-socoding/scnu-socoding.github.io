@@ -3,12 +3,15 @@ import links from '~/data/links'
 import { isDark } from '~/composables'
 const { t } = useI18n()
 
-document.title = '招新流程 | SoCoding'
+if (document)
+  document.title = '招新流程 | SoCoding'
 
-window.onresize = window.onload = () => {
-  const iframe = document.getElementsByTagName('iframe')[0]
-  if (iframe && iframe.contentWindow)
-    iframe.style.height = `${iframe.contentWindow.document.body.scrollHeight.toString()}px`
+if (window) {
+  window.onresize = window.onload = () => {
+    const iframe = document?.getElementsByTagName('iframe')[0]
+    if (iframe && iframe.contentWindow)
+      iframe.style.height = `${iframe.contentWindow.document?.body.scrollHeight.toString()}px`
+  }
 }
 </script>
 

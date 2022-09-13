@@ -3,28 +3,30 @@ const router = useRouter()
 const { t } = useI18n()
 
 function refresh() {
-  window.location.replace(`${window.location.pathname}?t=${Date.now()}`)
+  window?.location?.replace(`${window?.location?.pathname}?t=${Date.now()}`)
 }
 
-const fileName = location.pathname.split('/').pop()
+const fileName = location?.pathname.split('/').pop()
 const isFile = fileName && fileName.toLowerCase().endsWith('.pdf')
 
-if (isFile)
-  document.title = `${fileName} | SoCoding`
-else
-  document.title = '页面找不到啦 | SoCoding'
+if (document) {
+  if (isFile)
+    document.title = `${fileName} | SoCoding`
+  else
+    document.title = '页面找不到啦 | SoCoding'
+}
 
 function downloadThis() {
   if (isFile) {
-    fetch(location.href)
+    fetch(location?.href)
       .then(res => res.blob()
         .then((blob) => {
-          const a = document.createElement('a')
-          const url = window.URL.createObjectURL(blob)
+          const a = document?.createElement('a')
+          const url = window?.URL.createObjectURL(blob)
           a.href = url
           a.download = fileName
           a.click()
-          window.URL.revokeObjectURL(url)
+          window?.URL.revokeObjectURL(url)
         }))
   }
 }

@@ -3,12 +3,13 @@ import links from '~/data/links'
 import membersData from '~/data/members'
 
 const { t } = useI18n()
-const name = decodeURIComponent(location.search.split('?')[1])
+const name = decodeURIComponent(location?.search.split('?')[1])
 const member = membersData.find(it => it.englishName === name || it.name === name)
 
 const avatarPath = `/avatar/${member?.englishName.toLowerCase()}.png`
 
-document.title = `${member?.name || '无此成员'} | SoCoding`
+if (document)
+  document.title = `${member?.name || '无此成员'} | SoCoding`
 </script>
 
 <template>

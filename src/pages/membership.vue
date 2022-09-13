@@ -7,7 +7,8 @@ const allMembers = membersData.filter(it => it.belongs.includes('会员'))
 
 const { t } = useI18n()
 
-document.title = '成员们 | SoCoding'
+if (document)
+  document.title = '成员们 | SoCoding'
 
 </script>
 
