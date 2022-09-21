@@ -6,7 +6,8 @@ const { t } = useI18n()
 const name = decodeURIComponent(location?.search.split('?')[1])
 const member = membersData.find(it => it.englishName === name || it.name === name)
 
-const avatarPath = `/avatar/${member?.englishName.toLowerCase()}.png`
+// const avatarPath = `/avatar/${member?.englishName.toLowerCase()}.png`
+const avatarPath = member?.avatar || '/avatar/uni.jpg'
 
 if (document)
   document.title = `${member?.name || '无此成员'} | SoCoding`

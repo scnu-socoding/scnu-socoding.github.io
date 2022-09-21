@@ -56,6 +56,4 @@ const data: CardData[] = [
     v-for="(it, i) in data" :key="i" :title="t(it.title)" :description="t(it.description)" :action="it.action"
     :delay="i" :target="it.target"
   />
-
-  欢迎加入我们的友链，通过 <a href="mailto:board@socoding.cn">board@socoding.cn</a> 联系我们
 </template>

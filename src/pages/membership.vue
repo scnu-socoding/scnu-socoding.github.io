@@ -20,7 +20,7 @@ if (document)
       </p>
       <ToolTipsProvider :gap="1">
         <ToolTip v-for="(it, i) in coreMembers" :key="i" :description="it.name">
-          <Avatar :avatar="`/avatar/${it.englishName.toLowerCase()}.png`" :name="it.name" :link="`/members/${it.englishName}`" />
+          <Avatar :avatar="it.avatar" :name="it.name" :link="`/members/${it.englishName}`" />
         </ToolTip>
       </ToolTipsProvider>
     </AccordionRow>
@@ -30,7 +30,7 @@ if (document)
       </p>
       <ToolTipsProvider :gap="1">
         <ToolTip v-for="(it, i) in allMembers" :key="i" :description="it.name">
-          <Avatar :avatar="`/avatar/${it.englishName.toLowerCase()}.png`" :name="it.name" :link="`/members/${it.englishName}`" />
+          <Avatar :avatar="it.avatar" :name="it.name" :link="`/members/${it.englishName}`" />
         </ToolTip>
       </ToolTipsProvider>
     </AccordionRow>
@@ -40,14 +40,8 @@ if (document)
       </p>
       <ToolTipsProvider :gap="1">
         <ImageCard
-          v-for="(it, i) in partnersData"
-          :key="i"
-          :title="t(it.title)"
-          :image-u-r-l="it.url"
-          :action="it.action"
-          :fold="it.fold"
-          :delay="i"
-          style="width: 100%"
+          v-for="(it, i) in partnersData" :key="i" :title="t(it.title)" :image-u-r-l="it.url"
+          :action="it.action" :fold="it.fold" :delay="i" style="width: 100%"
         />
       </ToolTipsProvider>
     </AccordionRow>
