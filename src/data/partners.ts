@@ -2,6 +2,13 @@ import type { ImageCardData } from './CardData'
 
 const partnersData: ImageCardData[] = [
   {
+    title: '合作伙伴 | ISCNU 华南师大网络协会',
+    url: '/img/partners/iscnu.svg',
+    action: [
+      { label: 'Go', icon: 'i-ri-links-fill', url: '//iscnu.net' },
+    ],
+  },
+  {
     title: '合作伙伴 | Cocos 游戏引擎官方',
     url: '/img/partners/cocos.svg',
     action: [
