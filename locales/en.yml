@@ -35,9 +35,15 @@ index:
     wechat:
       description: Wechat
 membership:
+  coco-members: CocoClub
   core-members: Core members
+  development-members: Development
   members: Members
+  operation-members: Operation
   partners: Partners
+  publicity-members: Publicity
+  shannon-members: Shannon
+  tech-members: Tech
 not-found: Not found
 toc: Contents
 tools:

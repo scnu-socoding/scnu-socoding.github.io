@@ -29,7 +29,13 @@ const renderButton = (name: string, title: string) => h(
       name,
       value: name,
       class: 'display-none',
-      onclick: () => { checkedRow = name },
+      onclick: () => {
+        if (checkedRow === name)
+          checkedRow = ''
+
+        else
+          checkedRow = name
+      },
     }, {}),
     title,
   ],

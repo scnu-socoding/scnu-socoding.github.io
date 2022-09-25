@@ -34,9 +34,17 @@ index:
     wechat:
       description: 微信公众号
 membership:
+  coco-members: 椰风游戏开发社
   core-members: 核心成员
+  development-members: 发展组
   members: 会员
+  operation-members: 运营部
+  part1-members: 下属部门
+  part2-members: 下属组织
   partners: 合作
+  publicity-members: 信宣部
+  shannon-members: 香农先修班
+  tech-members: 技术部
 not-found: 未找到页面
 toc: 目录
 tools:
