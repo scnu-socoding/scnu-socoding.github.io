@@ -32,7 +32,6 @@ const renderButton = (name: string, title: string) => h(
       onclick: () => {
         if (checkedRow === name)
           checkedRow = ''
-
         else
           checkedRow = name
       },
@@ -52,16 +51,16 @@ const renderBody = () => h(
   },
   slots.default && slots.default().map(it => h('div', {
     class: {
-      'overflow-hidden transition-all': true,
+      'overflow-hidden transition-all duration-500': true,
     },
   },
   [
     renderButton(it.props?.name, it.props?.title),
     h('div', {
       class: {
-        'transition-all duration-500': true,
-        'h-0 scale-y-0': it.props?.name !== checkedRow,
-        'p-4': it.props?.name === checkedRow,
+        'max-h-0 scale-y-0': it.props?.name !== checkedRow,
+        'p-10 max-h-200': it.props?.name === checkedRow,
+        'transition-max-h duration-500': true,
       },
     }, it),
   ])),

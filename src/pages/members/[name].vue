@@ -23,7 +23,7 @@ if (document)
     <div v-if="member">
       <ToolTipsProvider :gap="1">
         <ToolTip :key="1" :description="member.name">
-          <Avatar :avatar="avatarPath" :name="member.name" />
+          <Avatar :avatar="avatarPath" :name="member.name" cla="rounded-1/2 w-8rem h-8rem" />
         </ToolTip>
       </ToolTipsProvider>
       <br>

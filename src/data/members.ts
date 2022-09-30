@@ -298,7 +298,7 @@ const membersData = [
     englishName: 'WangJiaYe',
     code: 'CEO/会长',
     belongs: 'SoCoding/委员会;SoCoding/会员',
-    avatar: 'https://thirdwx.qlogo.cn/mmopen/vi_32/UQjZ9apaZc9umlOIcVjrZyicOSZ5YAczhDwZBeazfibcWeyN8HHZvX4CDE5ubarJbJG8RUXe11D73NFe2TB2ko1A/0',
+    avatar: 'https://wework.qpic.cn/wwpic/599240_3Y2LBpI7RLm9eln_1664494661/0',
   },
   {
     name: '韦舟',
