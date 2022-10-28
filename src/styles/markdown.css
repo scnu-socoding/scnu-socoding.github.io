@@ -1,12 +1,25 @@
 /* https://github.com/antfu/prism-theme-vars */
 @import 'prism-theme-vars/base.css';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.15.3/katex.min.css';
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&family=Source+Serif+Pro&display=swap');
 
+:root {
+  --font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --font-family-code: 'Source Code Pro', Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  --font-family-serif: 'Source Serif Pro', serif;
+}
+
+html {
+  font-family: var(--font-family) !important;
+}
+
+body.font-sans {
+  font-family: var(--font-family) !important;
+}
 
 .prose {
   animation: fadein-shift-x-4-800 cubic-bezier(0, 0, 0.2, 1) 0.8s;
-  --prism-font-family: 'DM Mono', monospace;
+  --prism-font-family: var(--font-family-code);
 }
 
 .prose img {
@@ -86,5 +99,5 @@ html.dark .prose {
 }
 
 .prose :where(code):not(.not-prose) {
-  font-family: 'JetBrains Mono', monospace !important;
+  font-family: var(--font-family-code) !important;
 }

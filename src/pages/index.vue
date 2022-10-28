@@ -53,6 +53,7 @@ if (document)
 .flag::before {
   content: "big brother is watching you";
   font: bold 10%/1 monospace;
+  font-family: var(--font-family-code);
   position: fixed;
   left: 10pt;
   bottom: 10pt;

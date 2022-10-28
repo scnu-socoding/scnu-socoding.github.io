@@ -18,8 +18,5 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
-.title {
-    font-family: orbitron;
-}
+
 </style>
