@@ -8,6 +8,14 @@ if (document)
 
 const data: CardData[] = [
   {
+    title: '软协 | SoCoding Chat',
+    description: 'SoCoding 聊天频道',
+    action: [
+      { label: 'Go', icon: 'i-ri-links-fill', url: '//chat.socoding.cn' },
+    ],
+    target: '_blank',
+  },
+  {
     title: '软协 | SoCoding OJ',
     description: 'SoCoding 在线评测系统',
     action: [
@@ -47,7 +55,14 @@ const data: CardData[] = [
     ],
     target: '_blank',
   },
-
+  {
+    title: '友链 | HK-SHAO 的主页',
+    description: '2022 秋现任会长烧风的个人主页~',
+    action: [
+      { label: 'Go', icon: 'i-ri-links-fill', url: '//shao.fun' },
+    ],
+    target: '_blank',
+  },
 ]
 </script>
 
