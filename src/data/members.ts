@@ -120,7 +120,7 @@ const membersData = [
   },
   {
     name: '赖柏宇',
-    englishName: 'LaiBaiYu',
+    englishName: 'LaiBoYu',
     code: 'XSO/战略',
     belongs: 'SoCoding/委员会/发展组;SoCoding/委员会/发展组/椰风游戏开发社;SoCoding/会员',
     avatar: 'https://wework.qpic.cn/wwpic/723812_7Z7bLaSIQUebvfG_1659357973/0',
@@ -288,7 +288,7 @@ const membersData = [
   },
   {
     name: '覃梓鑫',
-    englishName: 'TanZiXin',
+    englishName: 'QinZiXin',
     code: 'XEO/副会长',
     belongs: 'SoCoding/委员会;SoCoding/会员',
     avatar: 'https://wework.qpic.cn/wwpic/499783_h0TAThxKROuFYxv_1661532615/0',
